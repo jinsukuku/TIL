@@ -1,6 +1,5 @@
-// import
 // import createBugMap from "createBugMap.js";
-// console.log(createBugMap.time);s
+// console.log(createBugMap.time);
 
 // initSetting() 을 위한 전역변수
 var bugPosition;

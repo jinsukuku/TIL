@@ -1,5 +1,8 @@
 // 📁 main.js
-import {sayHi} from './sayHi.js';
+import {getBugMap} from './createBugMap.js';
+import {getBugPosition} from './createBugMap.js';
 
-console.log(sayHi); // 함수
-sayHi("하이");
+let bugMap = getBugMap();
+let bugPosition = getBugPosition();
+console.log(bugMap);
+console.log(bugPosition);
