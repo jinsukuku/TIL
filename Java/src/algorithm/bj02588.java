@@ -2,8 +2,8 @@ package algorithm;
 
 import java.util.Scanner;
 
-public class bj2557 {
-
+public class bj02588 {
+	//°ö¼À
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int a=sc.nextInt();
