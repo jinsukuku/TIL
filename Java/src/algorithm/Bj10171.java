@@ -1,6 +1,6 @@
 package algorithm;
 
-public class bj10171 {
+public class Bj10171 {
 	//°í¾çÀÌ
 	public static void main(String[] args) {
         System.out.println("\\    /\\");

@@ -2,7 +2,7 @@ package algorithm;
 
 import java.util.Scanner;
 
-public class bj10430 {
+public class Bj10430 {
 	//³ª¸ÓÁö
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);

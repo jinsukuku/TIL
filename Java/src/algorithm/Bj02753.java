@@ -2,7 +2,7 @@ package algorithm;
 
 import java.util.Scanner;
 
-public class bj02753 {
+public class Bj02753 {
 	//¹®Á¦2753. À±³â
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);

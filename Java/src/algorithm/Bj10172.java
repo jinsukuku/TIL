@@ -1,6 +1,6 @@
 package algorithm;
 
-public class bj10172 {
+public class Bj10172 {
 	//°³
 	public static void main(String[] args) {
 	    System.out.println("|\\_/|");

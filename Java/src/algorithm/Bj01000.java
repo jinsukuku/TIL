@@ -2,7 +2,7 @@ package algorithm;
 
 import java.util.Scanner;
 
-public class bj01000 {
+public class Bj01000 {
 	//A+B
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
