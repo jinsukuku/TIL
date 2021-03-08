@@ -10,22 +10,31 @@ public class Bj08958 {
 		int n = sc.nextInt();
 		int []score = new int[n];
 		String []str = new String[n];
-		sc.nextLine(); //버퍼지우기
+		
+		sc.nextLine(); 	//버퍼지우기
+		int cnt=0;		//연속 횟수 확인용
+		int temp=0;		//획득한 점수
+		
 		
 		for(int i=0; i<n; i++) {
 			str[i] = sc.nextLine();
-			for(int j=0; j<str[i].length()-1; j++) {
+			for(int j=0; j<str[i].length(); j++) {
 				if(str[i].charAt(j)=='O') {
-					score[i]++;
-					if(str[i].charAt(j+1)=='O') {
-						score[i]++;
-					}
+					cnt++;
+					temp+=cnt;
+				}else {
+					score[i]+=temp;
+					cnt=0; temp=0;
 				}
+			}
+			if(temp!=0) {
+				score[i]+=temp;
+				cnt=0; temp=0;
 			}
 		}
 		
-		
-		System.out.println(score[0]);
+		for(int i:score) {
+			System.out.println(i);
+		}
 	}
-
 }
