@@ -1,2 +1,2 @@
 # Python
-Python 공부
+Python
