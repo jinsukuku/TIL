@@ -36,7 +36,7 @@ function UserList(){
             <h3>users.map()</h3>
             <ol>
                 {users.map(user => (
-                    <User user={user} />
+                    <User user={user} key={user.id}/>
                 ))}
             </ol>
         </div>
