@@ -104,14 +104,12 @@
 - 스타일을 쉽게 주기 위해 혹은 레이아웃을 위한 `<div>`를 `<dl>`내부에 사용할 수 있다
 - `<dt>` 와 `<dd>`를 감쌀 수는 있으나, 형제 태그의 형태로는 사용할 수 없다 (웹표준에 맞지 않음)
 <br>
+<br>
+
 
 **[참고1.ul]** https://developer.mozilla.org/ko/search?q=ul <br>
 **[참고2.ol]** https://developer.mozilla.org/ko/docs/Web/HTML/Element/ol <br>
 **[참고3.dl]** https://developer.mozilla.org/ko/docs/Web/HTML/Element/dl
-
-
-
-<br>
 
 
 
