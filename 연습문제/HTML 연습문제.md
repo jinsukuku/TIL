@@ -1,5 +1,5 @@
 # 📌 HTML연습문제
-- 2021.09.04(토)
+- 2021.09.05(일) 
 
 <br>
 
@@ -12,7 +12,7 @@
 <h5>다람쥐 헌 쳇바퀴에 타고파</h5>
 <h6>다람쥐 헌 쳇바퀴에 타고파</h6>
 ```
-### output
+### ✅ output
 
 > <h1>다람쥐 헌 쳇바퀴에 타고파</h1>
 > <h2>다람쥐 헌 쳇바퀴에 타고파</h2>
@@ -38,7 +38,7 @@
     <li>대파</li>
 </ol>
 ```
-### output
+### ✅ output
 > <ul>
 >     <li>사과</li>
 >     <li>오렌지</li>
@@ -60,7 +60,7 @@
     <input type="password" minlenght="6" maxlength="20" placeholder="비밀번호를 입력해주세요">
 </form>
 ```
-### output
+### ✅ output
 > <form>
 >     <input type="password" minlenght="6" maxlength="20" placeholder="비밀번호를 입력해주세요">
 > </form>
@@ -108,7 +108,7 @@
     </tbody>
 </table>
 ```
-### output
+### ✅ output
 > <table>
 >     <caption>주식회사 HTML매출</caption>
 >     <thead>
@@ -148,7 +148,7 @@
 
 ## 👉 5번
 ```html
-<p></p>
+<p>&#x222b;<sub>o</sub><sup>t</sup>2<sup>5</sup> x <i>log</i><sub>2</sub>x</p>
 ```
-- output
+- ✅ output
 > <p>&#x222b;<sub>o</sub><sup>t</sup>2<sup>5</sup> x <i>log</i><sub>2</sub>x</p>
