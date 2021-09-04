@@ -17,7 +17,7 @@
 ```
 
 <img src="zerobace/img/sky.jpg" title="sky-img" height="200"> 
-<br><br>
+<br>
 <img src="https://bit.ly/3DPNzie" width="400"> 
 
 - html 문서에 **이미지를 넣는 요소**로 닫는 태그가 따로 없다
