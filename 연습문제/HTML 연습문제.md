@@ -61,9 +61,9 @@
 </form>
 ```
 ### ✅ output
-> <form>
->     <input type="password" minlenght="6" maxlength="20" placeholder="비밀번호를 입력해주세요">
-> </form>
+<form>
+    <input type="password" minlenght="6" maxlength="20" placeholder="비밀번호를 입력해주세요">
+</form>
 
 -----
 
