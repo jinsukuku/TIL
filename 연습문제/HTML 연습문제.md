@@ -21,6 +21,9 @@
 > <h5>다람쥐 헌 쳇바퀴에 타고파</h5>
 > <h6>다람쥐 헌 쳇바퀴에 타고파</h6>
 
+
+<br>
+
 ## 👉 2번
 ```html
 <ul>
@@ -51,12 +54,17 @@
 > </ol>
 
 
+<br>
+
 ## 👉 3번
 ```html
 <form>
     <input type="password" minlenght="6" maxlength="20" placeholder="비밀번호를 입력해주세요">
 </form>
 ```
+
+
+<br>
 
 ## 👉 4번
 ```html
@@ -135,6 +143,9 @@
 >        </tr>
 >    </tbody>
 > </table>
+
+
+<br>
 
 ## 👉 5번
 ```html
