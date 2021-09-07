@@ -243,7 +243,7 @@ input[type=checkbox]:checked { outline:3px solid lightgreen; }
 > 동적 가상 클래스 : 사용자의 동작으로 인해 바뀌는 상태에 따른 선택자
 18. `:enabled` : 활성화되어 있는 요소를 선택한다 
 19. `:disabled` : disabled 속성을 가지고, 비활성화되어 있는 요소를 선택한다 
-20. `:checked` : 
+20. `:checked` : check-box 나 radio-box를 체크한 상태인 요소의 스타일을 적용시키기 위한 선택자
 
 
 <br>
