@@ -83,7 +83,8 @@ a[target*="html"] { font-style:italic; }
     - class 선택자와 함께 사용할 때, 동일한 class를 가진 요소 중 n번째 요소를 선택하는 것이 아니라
     - class 선택자로 선택한 요소의 **형제 요소 중 n번째 요소를 의미하는 것이므로 주의하자**
 
-<br>
+
+-------------
 
 ```html
 <ul>
@@ -108,10 +109,10 @@ li.movie:first-child { font-size:20px; }
 1. `:first-child` : 선택한 태그의 형제 요소 중 첫번째 요소를 선택한다
 2. `:last-child` : 선택한 태그의 형제 요소 중 마지막 요소를 선택한다
 3. `:nth-child(n)` : 선택한 태그의 형제 요소 중 n번째 요소를 선택한다
-3. `:nth-child(2n+1)` : 선택한 태그의 형제 요소 중 2n+1번째 요소를 선택한다.
+4. `:nth-child(2n+1)` : 선택한 태그의 형제 요소 중 2n+1번째 요소를 선택한다.
    - 이 때, 2n+1이라는 수식 외에도 다양한 수식을 사용할 수 있다 (예) n+3
-4. `:nth-child(even)` : 선택한 태그의 형제 요소 중 짝수번째 요소를 선택한다
-5. `:nth-child(odd)` : 선택한 태그의 형제 요소 중 홀수번째 요소를 선택한다
+5. `:nth-child(even)` : 선택한 태그의 형제 요소 중 짝수번째 요소를 선택한다
+6. `:nth-child(odd)` : 선택한 태그의 형제 요소 중 홀수번째 요소를 선택한다
 
 <br>
 
@@ -136,16 +137,113 @@ div:last-of-type { color : hotpink; }
 ![example1104](./img/1104.png)
 
 
-6. `:first-of-type` : 선택한 태그 요소 중 첫번째 요소를 선택한다  
+7. `:first-of-type` : 선택한 태그 요소 중 첫번째 요소를 선택한다  
     - `.movie:first-of-type` : class선택자와 함께 사용하면 위의 예제에서는 토이스토리와 주토피아에 스타일이 적용된다
     - 어떠한 태그인지 명시하지 않고 class선택자를 사용해 요소를 선택했기 때문
-7. `:last-of-type` : 선택한 태그 요소 중 마지막 요소를 선택한다
-8. `:nth-of-type(n)` : 선택한 태그 요소 중 n번째 요소를 선택한다
-8. `:nth-of-type(even)` : 선택한 태그 요소 중 짝수번째 요소를 선택한다
-8. `:nth-of-type(odd)` : 선택한 태그 요소 중 홀수번째 요소를 선택한다
+8. `:last-of-type` : 선택한 태그 요소 중 마지막 요소를 선택한다
+9. `:nth-of-type(n)` : 선택한 태그 요소 중 n번째 요소를 선택한다
+10. `:nth-of-type(even)` : 선택한 태그 요소 중 짝수번째 요소를 선택한다
+11. `:nth-of-type(odd)` : 선택한 태그 요소 중 홀수번째 요소를 선택한다
+
+<br>
+
+-------------
+```html
+<form>
+    <input type="text" placeholder="name">
+    <input type="email" placeholder="email">
+    <input type="password" placeholder="password" class="pw">
+    <input type="submit">
+</form>
+``` 
+```css
+input:not(.pw) { background-color:pink; }
+input:not([type=email]) { background-color:lightblue; }
+input:not([placeholder]) { color:red; }
+```
+
+![example1105](./img/1105.png)
+
+
+12. `A:not(B)` : A 태그 중 B가 아닌 요소를 선택한다
+
+<br>
+
+-------------
+```html
+<a href="sample1.html">Sample Link</a>
+<a href="sample2.html">Visited Link</a>
+```
+```css
+a:link{ color : tomato; } 
+a:visited{ color : yellowGreen; } 
+```
+
+![example1106](./img/1106.png)
+
+
+> 동적 가상 클래스 : 사용자의 동작으로 인해 바뀌는 상태에 따른 선택자
+13. `a:link` : 동적 가상 클래스 선택자 / 연결된 웹에 방문한 적이 없는 경우 
+14. `a:visited` : 동적 가상 클래스  / 연결된 웹에 방문한 적이 있는 경우  
 
 
 
+<br>
+
+-------------
+```html
+<input type="button" value="클릭하세요">
+<input type="button" value="클릭하세요">
+<input type="button" value="클릭하세요">
+```
+```css
+input[type=button]:hover { background-color:skyblue; }
+input[type=button]:active { background-color:teal; }
+input[type=button]:focus { background-color:teal; }
+```
+
+> 동적 가상 클래스 : 사용자의 동작으로 인해 바뀌는 상태에 따른 선택자
+15. `:hover` : 사용자가 요소 위에 마우스를 올렸을 때, 스타일을 적용시키기 위한 선택자 
+16. `:active` : 사용자가 마우스를 누른 시점부터 떼는 순간까지, 스타일을 적용시키기 위한 선택자
+17. `:focus` : `tab`키를 사용했을 때 포커싱 되는 순간, 스타일을 적용시키기 위한 선택자
+- 동적 가상 클래스를 사용할 때에는 우선순위에 주의하자
+    - LVHA 순서 : `:link` → `:visited` → `:hover` → `:active`
+    - `:active` 선택자를 다른 동적 가상 클래스보다 뒤에 배치도록 한다
+    - **[참고]** https://developer.mozilla.org/ko/docs/Web/CSS/:active
+    
+
+
+<br>
+
+-------------
+```html
+<div>
+    <input type="text" placeholder="1"><
+    <input type="text" placeholder="2">
+    <input type="text" placeholder="3" disabled>
+</div>
+<div>
+    <input type="checkbox" id="checkMe1" name="check1">
+    <label for="checkMe1">CHECK ME!</label>
+    <input type="checkbox" id="checkMe2" name="check2">
+    <label for="checkMe2">CHECK ME!</label>
+</div>
+```
+```css
+input[type=text]:disabled { background-color:tomato; }
+input[type=text]:enabled { background-color:skyblue; }
+input[type=checkbox]:checked { outline:3px solid lightgreen; }
+```
+
+![example1107](./img/1107.png)
+
+
+
+
+> 동적 가상 클래스 : 사용자의 동작으로 인해 바뀌는 상태에 따른 선택자
+18. `:enabled` : 활성화되어 있는 요소를 선택한다 
+19. `:disabled` : disabled 속성을 가지고, 비활성화되어 있는 요소를 선택한다 
+20. `:checked` : 
 
 
 <br>
