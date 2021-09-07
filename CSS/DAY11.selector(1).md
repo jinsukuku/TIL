@@ -38,11 +38,7 @@ li.blue { color:blue; }
 li.green { color:green; }
 ```
 
-> <ul>
->     <li id="title" style="color:orange">아이디는 하나의 웹 문서에 중복될 수 없다</li>
->     <li class="blue green"  style="color:green">GREEN</li>
->     <li class="blue"  style="color:blue">BLUE</li>
-> </ul>
+![example1101](./img/1101.png)
 
 
 - 태그의 id와 class를 사용해 특정 요소를 선택한다
@@ -59,20 +55,18 @@ li.green { color:green; }
 <p><a href="sample1" target="_blank">SAMPLE01</a></p>
 <p><a href="sample2.html" target="_blank">SAMPLE02</a></p>
 <p><a href="test_sample3.html">SAMPLE03</a></p>
-<p><a href="sample1">SAMPLE01</a></p>
+<p><a href="sample1">SAMPLE04</a></p>
 ```
 ```CSS
 /* 속성 선택자 (Attribute Selector) */
 a[target] { color:hotpink; }
 a[target="sample1"] { color:green; }
 a[target^="test"] { color:orange; }
-a[target$=".html"] { background-color:#eee; }
+a[target$=".html"] { background-color:gray; }
 a[target*="html"] { font-style:italic; }
 ```
-> <p><a href="sample1" target="_blank" style="color:green">SAMPLE01</a></p>
-> <p><a href="sample2.html" target="_blank "style="color:hotpink; font-style:italic; background-color:#eee; ">SAMPLE02</a></p>
-> <p><a href="test_sample3.html" style="color:orange; font-style:italic; background-color:#eee;">SAMPLE03</a></p>
-> <p><a href="sample1" style="color:green">SAMPLE04</a></p>
+
+![example1102](./img/1102.png)
 
 - `[attr]` : html태그에 해당 속성이 있으면 선택
 - `[attr=""]` : html태그의 속성값까지 동일하면 선택
@@ -106,14 +100,9 @@ li:first-child { color:hotpink; }
 li.movie:first-child { font-size:20px; }
 ```
 
-><ul>
->    <li style="color:hotpink;">사과</li>
->    <li style="">바나나</li>
-></ul>
-><ol>
->    <li style="color:hotpink; font-size:20px;">인사이드아웃</li>
->    <li style="">토이스토리</li>
-></ol>
+![example1103](./img/1103.png)
+
+
 
 
 1. `:first-child` : 선택한 태그의 형제 요소 중 첫번째 요소를 선택한다
@@ -142,14 +131,9 @@ p:first-of-type { color : orange; }
 div:last-of-type { color : hotpink; }
 .movie:first-of-type { background-color : gray; }
 ```
-><section>
->    <div class="movie" style="background-color : gray;">토이스토리</div>
->    <p class="movie" style="color:orange; background-color : gray;">주토피아</p>
->    <p class="movie">인사이드아웃</p>
->    <p class="movie">겨울왕국</p>
->    <div class="movie" style="color:hotpink;">코코</div>
-></section>
 
+
+![example1104](./img/1104.png)
 
 
 6. `:first-of-type` : 선택한 태그 요소 중 첫번째 요소를 선택한다  
