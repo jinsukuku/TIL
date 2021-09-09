@@ -41,7 +41,6 @@ div{ width:150px; height:150px; background-color:tomato;}
 ![example1301](./img/1301.png)
 
 - 요소의 불투명도를 설정하고, 초기값은 1이다
-- 요소의 불투명도를 설정하고, 초기값은 1이다
 - 불투명도는 1.0 ~ 0.0 의 범위를 가진다. 소수점 앞의 숫자는 생략 가능하다 (예) 0.5 = .5 
 - `opacity`를 조절하면, 요소의 내부 컨텐츠까지도 불투명도가 적용된다 
 - `background-color`를 `rgba()`를 사용해 불투명도를 조절하면, <br> 이 때는 배경 색상에만 투명도가 적용되므로, 컨텐츠에는 영향을 주지 않는다
@@ -116,7 +115,7 @@ div{ width:150px; height:150px; background-color:tomato;}
 - 배경 이미지의 위치를 지정할 때 사용한다
 - 초기값 : `background-position : 0 0`
 - x축 위치와 y축 위치를 공백으로 구분지어 입력한다. 입력 순서는 상관없다
-- `px`단위를 사용한 숫자값 외에도, 키워드를 사용할 수 있다
+- `px` 등의 단위를 사용하는 숫자 값 외에도, 키워드를 사용할 수 있다
 - 키워드 : `left` `right` `top` `bottom`
 - 반드시 x축 위치와 y축 위치르 모두 입력하지 않아도 된다. 값을 하나만 사용할 수 있다
 
@@ -141,12 +140,89 @@ div{ width:150px; height:150px; background-color:tomato;}
 
 - 배경 이미지의 크기를 지정한다.
 - 초기값 : `background-size : auto` → 이미지의 원래 size를 적용한다
-
+- `px`, `em` 등의 단위를 사용하는 숫자 값 외에도, 키워드를 사용할 수 있다
+- 숫자 값
+    - 공백으로 구분해 `width`와 `height`를 지정한다
+    - 값을 하나만 입력하면 입력 값은 `width`에 적용되고, `height`는 배경 이미지의 비율에 따라 결정된다
+    - 만약 `background-size : 100%`라고 지정하면, 배경 이미지의 너비가 요소의 `width`와 동일하게 지정된다
+- 키워드
+    - `auto` : `background-size`의 초기값으로, 이미지의 원래 size를 적용한다
+    - `contain` : 배경 이미지가 요소 내부에 쏙 들어가게 배경 이미지 크기를 조절한다
+    - `cover` : 배경 이미지가 요소를 꽉 채울 수 있도록 배경 이미지 크기를 조절한다
+    - `contain`과 `cover` 모두 배경 이미지의 비율을 유지하며 요소를 채운다
 
 <br>
 
 ### 👉 `background` 단축 속성(short hand)
+- `background` 속성의 단축 속성으로, 공백을 구분자로 사용한다
+- 포함하는 하위 속성 <br>
+  `background-color`, `background-image`, <br>
+  `background-origin`, `background-posiiton`, <br>
+  `background-repeat`, `background-size`, <br>
+  `background-attachment`, `background-clip`
+- 앞서 언급하지 않은 속성은 자주 사용하지 않는 편 (`background-attachment`, `background-clip`)
 
+<br>
+
+```css
+/* background-color */
+div { background : green; }
+
+/* background-image & background-repeat */
+div { background : url("test.png") no-repeat; }
+
+/* background-origin & background-color */
+div { background : border-box green; }
+
+/* background-repeat & background-position/background-size & background-image */
+div { background : no-repeat center/80% url("test.png") }
+```
+- 위의 예제처럼 모든 하위 속성을 사용할 수도 있고, 필요한 속성만 사용할 수도 있다
+- 만약 `background-color`를 사용하는 경우느 하위 속성 중 가장 마지막에 입력해주어야 한다
+- `background-position`와 `background-size`은 `/`로 구분하고
+- `background-position / background-size`의 순서를 지켜 사용한다
+- 따로 사용하지않은 하위 속성은 초기값을 따라간다
+---
+
+### 👉 **`background` 속성의 초기값**
+<table>
+<tr>
+    <th>속성</th>
+    <th>초기값</th>
+</tr>
+<tr>
+    <th>background-image</th>
+    <td>초기값</td>
+</tr>
+<tr>
+    <th>background-position</th>
+    <td>0% 0%</td>
+</tr>
+<tr>
+    <th>background-size</th>
+    <td>auto auto</td>
+</tr>
+<tr>
+    <th>background-repeat</th>
+    <td>repeat</td>
+</tr>
+<tr>
+    <th>background-origin</th>
+    <td>padding-box</td>
+</tr>
+<tr>
+    <th>background-clip</th>
+    <td>border-box</td>
+</tr>
+<tr>
+    <th>background-attachment</th>
+    <td>scroll</td>
+</tr>
+<tr>
+    <th>background-color</th>
+    <td>transparent</td>
+</tr>
+</table>
 
 <br>
 
