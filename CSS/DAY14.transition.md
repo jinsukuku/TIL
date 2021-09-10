@@ -79,7 +79,7 @@
 - 마우스가 올라가고 내려올 때 모두 `transition`을 주고자 한다면 요소의 스타일에 적용해야한다
 - 아래 gif를 통해 차이점을 확인해보자
 
-![example1404](./img/1404.gif)
+![example1404](../img/1404.gif)
 
 <br>
 
@@ -106,8 +106,8 @@
 - `transition`이 실행되는 중간 과정의 시간을 조절하기 위한 속성
 - 예를 들어 `color`가 red → blue로 변화할 때, 보라색을 거치게 되는데 이러한 중간 과정에 소요되는 시간을 조절
 - 초기값 : `transition-timing-function : ease; `
-- 키워드 : `ease`, `ease-in`, `ease-out`, `ease-in-out`, `linear`, `step-start`, `step-end`
-![example1405](./img/1405.gif)
+- 키워드 : `ease`, `ease-in`, `ease-out`, `ease-in-out`, `linear`, `cubic-bezier`, `step-start`, `step-end` ...
+![example1405](../img/1405.gif)
 - [참고] https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function
 
 <br>
@@ -145,7 +145,7 @@
     transform : rotate(360deg);
 }
 ```
-![example1406](./img/1406.gif)
+![example1406](../img/1406.gif)
 <br>
 
 
