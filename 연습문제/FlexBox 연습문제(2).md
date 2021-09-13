@@ -186,7 +186,7 @@
 }
 ```
 
-![flexbox_final](./img/flexbox_final)
+![flexbox_final](./img/flexbox_final.png)
 
 - `align-content`와 `align-items` 의 차이가 좀 헷갈려서 헤맸다
 - `flex-box` 관련 속성을 많이 다루고 공부해봐야겠다
