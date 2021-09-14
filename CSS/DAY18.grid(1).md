@@ -243,12 +243,14 @@
 ### 👉 Container : `grid` (short hand) 
 - `Container`에 사용할 수 있는 속성을 한 줄로 작성할 수 있는 단축 속성
 - 많은 속성을 한 줄로 단축해서 사용하기 때문에, 직접 작성하는 연습을 거친 후에 단축 속성을 사용하는 편을 추천한다
+- 사용하기보단 해석을 할 수 있는 정도로 공부해두도록 하자
 - **단축 속성**
   - 외재적인 속성 (명시적) : `grid-template-rows` `grid-template-columns` `grid-template-areas`
   - 내재적인 속성 (암시적) : `grid-auto-rows` `grid-auto-columns` `grid-auto-flow`
 - 외재적인 속성은 `item`의 유무와 다르게 자리를 확인 할 수 있고, 내재적인 속성은 `item`이 없다면 눈으로 확인할 수 없다
 - 작성 시, `/`를 구분자로 사용하고 앞쪽은 `row`와 관련된 설정, 뒤쪽은 `column`과 관련된 설정을 작성한다
 - `row`와 `column`에 관련된 속성 중 하나는 반드시 외재적인 속성을 사용해야한다
+- **[참고]** https://developer.mozilla.org/ko/docs/Web/CSS/grid
 
 <br>
 
