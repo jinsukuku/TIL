@@ -6,3 +6,11 @@
 2. 기존 코드 뜯어보기 + 내 코드랑 비교하기
 
 ![naver_main](./img/naver_main.gif)
+
+<br>
+
+---------
+- **9월 16일(목)**
+    - HTML태그 대략 구성
+    - `whale_banner` CSS까지 완료
+    - `header` CSS 진행중
