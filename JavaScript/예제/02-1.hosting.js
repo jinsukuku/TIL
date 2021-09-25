@@ -1,5 +1,4 @@
 // 호이스팅(Hosting)
-// var와 let의 차이
 
 // caseA : var를 사용한 경우
 console.log(nameA);         // undefined
