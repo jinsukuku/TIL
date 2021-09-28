@@ -52,3 +52,55 @@
 - <a href="https://github.com/dev-ku/TIL-FrontEnd/blob/main/JavaScript/05.Fucntion%2C%20Method.md#-method">method</a>
 
 
+
+
+### 06. Number, String
+- **Keyword**
+  - 지수 표기법(e), `0x`(16진수), `0o`(8진수), `0b`(2진수)
+  - Number 대표 메서드
+    - 문자열로 변환 : `Number.toString`, `String(Number)`, `Number+""`
+    - 특정 자리수까지 제한하여 숫자 표현 : `Number.toFixed(pos)`, `Number.toPrecision(pos)`
+    - 타입 확인 : `Number.isNaN()`, `Number.isFinite()`
+    - 정수와 실수의 형 변환 : `Number.parseInt()`, `Number.parseFloat()`
+  - String 대표 메서드
+    - 문자열 정의 : "hello", 'hello', String()
+    - 문자열 길이 : `String.length`
+    - 문자열 접근 : `String.charAt(idx)`, `String.charCodeAt(idx)`, `String[idx]`
+    - 문자열 검색 : `String.indexOf(substr, pos)`. `String.lastIndexOf(substr, pos)`, `String.includes(substr, pos)`, `String.satrtsWith(substr, pos)`, `String.endsWith(substr, pos)` 등
+    - 문자열 변환 : `String.toUpperCase()`, `String.toLowerCase()`
+    - 문자열 치환 : `String.replace(origin_str, change_str)`
+    - 문자열 추출 : `String.slice(start, end)`, `String.substring(start, end)`,`String.substr(start, length)`
+    - 문자열 분할 : `String.split()`
+- <a href="">Number</a>
+- <a href="">String</a>
+- <a href="">문자열 변환</a>
+
+
+
+
+### 07. Array
+- **Keyword**
+  - 희소 배열(sparse array)
+  - 임의 정렬 : `Array.sort(callback function)`
+  - 반복 작업 : `Array.toEach(function(item,idx,arr){})`
+  - 콜백함수 결과 배열 반환 : `Array.map(function(item,idx,arr){})`
+  - 조건을 만족하는 하나의 값 반환 : `Array.find(function(item,idx,arr){})`
+  - 조건을 만족하는 값을 배열로 반환 : `Array.filter(function(item,idx,arr){})`
+  - 누적된 결과값을 반환 : `Array.reduce(function(accumulator,item,idx,arr){})`
+- <a href="https://github.com/dev-ku/TIL-FrontEnd/blob/main/JavaScript/07.Array.md#-array">Array</a>
+- <a href="https://github.com/dev-ku/TIL-FrontEnd/blob/main/JavaScript/07.Array.md#-%EB%B0%B0%EC%97%B4-%EC%A1%B0%EC%9E%91">배열 조작 </a>
+- <a href="https://github.com/dev-ku/TIL-FrontEnd/blob/main/JavaScript/07.Array.md#-%EB%B0%B0%EC%97%B4-%ED%83%90%EC%83%89---%EB%B3%80%ED%98%95">배열 탐색 - 변형</a>
+- <a href="https://github.com/dev-ku/TIL-FrontEnd/blob/main/JavaScript/07.Array.md#-%EB%B0%B0%EC%97%B4-%EC%A1%B0%EC%9E%91-%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98">배열 조작 - 고차함수</a>
+- <a href="https://github.com/dev-ku/TIL-FrontEnd/blob/main/JavaScript/07.Array.md#-%EA%B7%B8-%EC%99%B8-%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98">그 외 고차함수</a>
+
+
+
+
+### 08. Constructor, Collection, Map, Set
+- **Keyword** : 생성자 함수, `.new.target`, `Indexed Collection`, `keyed Collection`, 체이닝(chaining)
+- <a href="https://github.com/dev-ku/TIL-FrontEnd/blob/main/JavaScript/08.Constructor%2C%20Collection%2C%20Map%2C%20Set.md#-%EC%83%9D%EC%84%B1%EC%9E%90-constructor">생성자 (Constructor)</a>
+- <a href="https://github.com/dev-ku/TIL-FrontEnd/blob/main/JavaScript/08.Constructor%2C%20Collection%2C%20Map%2C%20Set.md#-collection">Collection</a>
+- <a href="https://github.com/dev-ku/TIL-FrontEnd/blob/main/JavaScript/08.Constructor%2C%20Collection%2C%20Map%2C%20Set.md#-map">Map</a>
+- <a href="https://github.com/dev-ku/TIL-FrontEnd/blob/main/JavaScript/08.Constructor%2C%20Collection%2C%20Map%2C%20Set.md#-set">Set</a>
+
+
