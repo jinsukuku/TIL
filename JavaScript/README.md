@@ -104,3 +104,28 @@
 - <a href="https://github.com/dev-ku/TIL-FrontEnd/blob/main/JavaScript/08.Constructor%2C%20Collection%2C%20Map%2C%20Set.md#-set">Set</a>
 
 
+
+### 09. Math, Date, Higher order Array
+- <a href="https://github.com/dev-ku/TIL-FrontEnd/blob/main/JavaScript/09.Math%2C%20Date%2C%20Higher%20order%20Array.md#-math">Math</a>
+  - 오일러 상수 : `Math.E`
+  - PI : `Math.PI`
+  - 절대값 : `Math.abs(x)`
+  - 최대값 : `Math.max(x)`
+  - 최소값 : `Math.min(x)`
+  - 랜덤 난수 값 : `Math.random()`
+  - 제곱과 제곱근 : `Math.pow(x,y)`, `Math.sqrt(x)`
+  - 소수점 처리 : `Math.round(x)`, `Math.ceil(x)`, `Math.floor(x)`
+  - this binding : `apply()`
+- <a href="https://github.com/dev-ku/TIL-FrontEnd/blob/main/JavaScript/09.Math%2C%20Date%2C%20Higher%20order%20Array.md#-date">Date</a>
+  - Date 객체 생성자 : `new Date()`
+  - 현재 시간 기준 문자열 : `Date()`
+  - 날짜 정보 얻기 (년/월/일) : `Date.getFullYear()`, `Date.getMonth()`, `Date.getDate()`
+  - 날짜 정보 얻기 (시/분/초) : `Date.getHours()`, `Date.getMinutes()`, `Date.getSeconds()`
+  - 날짜 정보 설정 (년/월/일) : `Date.setFullYear()`, `Date.setMonth()`, `Date.setDate()`
+  - 날짜 정보 설정 (시/분/초/ms) : `Date.setHours()`, `Date.setMinutes()`, `Date.setSeconds()`
+  - 그 외 날짜 정보 얻기 : `Date.getDay()`, `Date.getTime()`, `Date.getTimezoneOffset()`
+  - 그 외 날짜 정보 설정 : `Date.parse(str)`
+- <a href="https://github.com/dev-ku/TIL-FrontEnd/blob/main/JavaScript/09.Math%2C%20Date%2C%20Higher%20order%20Array.md#-n%EC%B0%A8%EC%9B%90-array">N차원 Array</a>
+  - `push()`, `pop()`
+
+
