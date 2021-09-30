@@ -26,8 +26,8 @@
 
 ## 👉 웹 접근성
 - 웹 접근성이란 무엇이고 왜 준수해야하는가
-- 한국형 웹 콘텐츠 접근성 지침 학습 / <a href="https://www.wah.or.kr:444/Participation/%ED%95%9C%EA%B5%AD%ED%98%95%EC%9B%B9%EC%BD%98%ED%85%90%EC%B8%A0%EC%A0%91%EA%B7%BC%EC%84%B1%EC%A7%80%EC%B9%A82.1.pdf> 
-한국형웹콘텐츠접근성지침2.1.pdf </a>
+- 한국형 웹 콘텐츠 접근성 지침 학습 _(<a href="https://www.wah.or.kr:444/Participation/%ED%95%9C%EA%B5%AD%ED%98%95%EC%9B%B9%EC%BD%98%ED%85%90%EC%B8%A0%EC%A0%91%EA%B7%BC%EC%84%B1%EC%A7%80%EC%B9%A82.1.pdf">
+한국형 웹 콘텐츠 접근성 지침 2.1.pdf</a> )_
 
 <br>
 
