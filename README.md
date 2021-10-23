@@ -3,22 +3,23 @@
 
 ## 👉 HTML/CSS
 - 🗓 2021.08.28 ~ 2021.09.17
-- **제로베이스 네카라쿠배 FE 온라인 1기 : 1단계**  
+- <a href="https://github.com/dev-ku/TIL-FrontEnd/tree/main/HTML">HTML</a>
+- <a href="https://github.com/dev-ku/TIL-FrontEnd/tree/main/CSS">CSS</a>
 
 <br>
  
 ## 👉 JavaScript
-- 🗓 2021.09.25 ~ 2021.09.29
-- **제로베이스 네카라쿠배 FE 온라인 1기 : 2단계**  
+- 🗓 2021.09.25 ~ 2021.09.29  
 
 <br>
  
 
 
 
-## 👉 알고리즘/자료구조
+## 👉 자료구조
 - 🗓 2021.09.30 ~ 2021.10.18
-- **제로베이스 네카라쿠배 FE 온라인 1기 : 2단계**  
+- <a href="https://github.com/dev-ku/TIL-FrontEnd/tree/main/%EC%84%A0%ED%98%95%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0">선형 자료구조</a>  
+- <a href="https://github.com/dev-ku/TIL-FrontEnd/tree/main/%EB%B9%84%EC%84%A0%ED%98%95%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0">비선형 자료구조</a>  
 
 <br>
 
@@ -34,5 +35,4 @@
 
 
 ## 👉 Clone-coding
-- 네이버 메인 화면 클론 코딩 (HTML, CSS로만) 
 - 크롬 앱 <a href="https://bit.ly/3o3kVFh">모멘텀(Momentum)</a> 클론 코딩  / <a href="https://nomadcoders.co/javascript-for-beginners">노마드 코더 강의</a> 참고 
