@@ -9,6 +9,7 @@
  
 ## 👉 JavaScript
 - 🗓 2021.09.25 ~ 2021.09.29  
+- <a href="https://github.com/dev-ku/TIL-FrontEnd/tree/main/JavaScript">JavaScript 기초 정리</a>
 
 <br>
  
