@@ -1,0 +1,58 @@
+# Platform / Complie(⭐️) / JavaHome(⭐️)
+
+최종 편집 일시: 2021년 10월 26일 오전 12:13
+키워드: Complie, JVM, JavaHome, Platform
+
+## ✏️  Platform
+
+- 특정 프로그램은 Window에서만 작동하고 Linux나 MacOS에서 작동하지 않는 경우가 있다
+- 이런 경우 Platform 호환이 되지 않는다고 말한다. 즉 Platform이란 program이 실행되는 장소를 의미한다
+
+## ✏️  Comfile
+
+Greeting.java → 컴파일 → Greeting.class
+
+- `.java` 파일은 인간이 이해할 수 있는 언어로 이루어진 **원시 소스 코드**이다
+- 기계가 원시 소스 코드를 이해하기 위해서는 기계어로 변환하는 **컴파일** 과정이 필요하다
+- 원시 소스 코드를 저장하는 순간 컴파일이 되고, 만약 원시 소스 코드에 문제가 있는 경우 컴파일에 실패하고 저장되지 않는다
+- 컴파일을 하게되면  `.class` 확장자를 가지는 파일이 생성된다
+- **이 파일을 우리는 실행 파일이라고 부르며, 실행 파일은 JVM 에서 실행된다**
+- 실행파일은 byte code의 형태를 갖는다
+
+Greeting.java → 컴파일 → Byte code
+
+- 자바는 컴파일을 하면 기계어(Binary code)가 아닌 Byte code로 컴파일한다
+- 그래서 바로 실행할 수 없고, JVM에서 실행해야한다
+
+  
+
+## ✏️  jdk 폴더(Java Home) 뜯어보기
+
+C드라이브 → Program Files → Java → jdk.1.8.0
+
+- 설치한 jdk 버전에 맞게 폴더가 위의 디렉토리에 생성되어 있다. jdk 폴더는 `JavaHome` 이라고 부른다.
+
+### ✅  JavaHome → bin
+
+- 모든 소프트웨어는 bin 폴더를 갖고 있고 bin폴더에는 실행에 관련된 파일을 저장한다 (표준화되어 있는 내용)
+    - java.exe : 실행 명령어를 갖는다
+    - javac.exe : 컴파일 명령어를 의미한다
+
+### ✅  JavaHome → jre → lib → rt.jar
+
+- 미리 만들어 놓은 실행 클래스의 묶음으로 **라이브러리, API** 이라고 말한다
+
+jdk(javaHome) → jre →  lib → rt.jar → java → lang(pakage) → class
+
+- rt.jar를 통해 미리 만들어 놓은 package, Class를 가져와 사용할 수 있다
+
+### ✅  JavaHome → src.zip
+
+- rt.jar의 실행 파일은 이미 Byte Code로 컴파일 된 실행파일(.class)이다
+- rt.jar의 원시 소스 코드 파일은 src.zip에서 확인할 수 있다
+
+### ✅ Java API Documentation
+
+[Java Platform SE 7](https://docs.oracle.com/javase/7/docs/api/)
+
+- 내장 라이브러리의 원시 코드를 매번 뜯어 볼 수 없기 때문에 제공되는 API 문서를 확인하며 사용할 수 있다

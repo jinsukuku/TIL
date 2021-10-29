@@ -1,0 +1,34 @@
+# 6. static 초기화 block
+
+최종 편집 일시: 2021년 10월 29일 오전 5:04
+키워드: public, static
+
+## ✏️  static 초기화 block
+
+```java
+package com.edu.test;
+
+public class StaticExamTest4 {
+   static int i = 0;
+	   
+   public static void main(String[] args) {
+	   System.out.println("1. 메인 메서드 static block..." + i);
+   }
+   
+   **static {
+	   i = 300;
+	   System.out.println("2. static 초기화 block..." + i );
+   }**
+}
+```
+
+```bash
+2. static 초기화 block... 300
+1. 메인 메서드 static block.. 300
+```
+
+- 일반적으로 실행 파일(class파일)이 실행되면, 가장 먼저 메인 메소드를 찾는다
+- 만약 static 초기화 블럭이 존재한다면, 메인 메소드보다 static 초기화 블럭을 먼저 찾아 실행한다
+- 그렇기 때문에 static 초기화 블럭에서 초기화된 값인 300이 상수의 값으로 유지된다
+- 실행 순서와는 상관 없이 **static 키워드는 메서드 내부의 지역변수는 사용할 수 없으므로**
+- **클래스의 가장 윗부분에서 필드 변수로서 static 변수 선언이 진행되어야한다**

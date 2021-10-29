@@ -1,0 +1,33 @@
+# New Initiative
+
+최종 편집 일시: 2021년 10월 29일 오전 10:06
+
+# Description of initiative
+
+### Why does it matter?
+
+Lorem ipsum.
+
+### How does it relate to our mission?
+
+- Lorem Ipsum.
+- Dolor sit amet.
+
+### What will you do and learn as part of the initiative?
+
+Join this initiative if you're interested in learning how to 
+
+- skill A
+- skill B
+
+### Who's leading it this semester?
+
+@...
+
+# Context and lessons for the next generation
+
+Lorem ipsum.
+
+### Lessons Learned
+
+Lorem ipsum.
