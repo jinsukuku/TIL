@@ -1,17 +1,8 @@
 # 📌 C언어
-- C언어 공부 기록  
-#  
+- <a href="https://dev-ku.tistory.com/category/BackEnd/C">C언어 기초 정리</a>
+- <a href="https://dev-ku.tistory.com/category/Computer%20Science/CS50">CS50 강의 복습</a>
+- <a href="https://dev-ku.tistory.com/category/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%2C%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EB%B0%B1%EC%A4%80%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98">백준 알고리즘</a>
+- <a href="https://dev-ku.tistory.com/category/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%2C%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EC%BD%94%EB%93%9C%EC%97%85">코드업 기초 100제</a>
 
-### 👉 C언어 알고리즘 
-1. 백준 알고리즘 풀이 포스팅 : https://dev-ku.tistory.com/category/알고리즘/백준 알고리즘 
-2. 코드업 기초 100제 풀이 포스팅 : https://dev-ku.tistory.com/category/알고리즘/코드업 
-#
 
-### 👉 C언어 스터디 (21.2.05 - 21.3.13)
-1. 스터디 준비 자료 : https://bit.ly/3mG6Cpm
-2. 스터디 복습 포스팅 : https://dev-ku.tistory.com/category/C언어  
-#
 
-### 👉 CS50 코칭스터디 2기 (21.1.11 - 21.2.26)
-1. CS50 복습 포스팅 : https://dev-ku.tistory.com/category/CS50
-2. CS50 강의 : https://www.boostcourse.org/cs112
