@@ -1,4 +1,4 @@
-# 📌 01. JAVA기초 정리
+# ✍️ 01. JAVA기초 정리
 ### 1일차 
 - <a href="https://github.com/dev-ku/Java/blob/main/Multicampus/01.%20Java/1%EC%9D%BC%EC%B0%A8/01.%20JDK%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20JDK%EC%97%90%20%EB%8C%80%ED%95%9C%20%EC%9D%B4%ED%95%B4.md">01. JDK 설치 및 JDK에 대한 이해</a>
 - <a href="https://github.com/dev-ku/Java/blob/main/Multicampus/01.%20Java/1%EC%9D%BC%EC%B0%A8/02.%20Hello%20World.md">02. Hello World</a>
