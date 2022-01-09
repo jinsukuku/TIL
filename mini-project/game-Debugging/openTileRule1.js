@@ -84,3 +84,14 @@ for(var i = 0; i < 81; i ++){
         temp += "O" + " ";
     }
 }
+
+console.log("=================");
+
+var temp = ""
+for(var i = 0; i < 81; i++){
+    temp += bugMap[i] + " ";
+    if(i%9 == 8){
+        console.log(temp);
+        temp = "";
+    }
+}

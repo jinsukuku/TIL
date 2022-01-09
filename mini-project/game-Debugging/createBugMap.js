@@ -58,7 +58,10 @@ for(let i = 0; i < rowCnt; i++){
     for(let j = 0; j <colCnt; j++){
         temp += bugMap[i][j] + "\t";
     }
+    console.log(temp);
 }
+
+console.log(bugPosition);
 
 //// 4. 1차원 배열로 변환
 let bugMapArr = [];
@@ -66,9 +69,9 @@ for(let map of bugMap){
     bugMapArr = [ ...bugMapArr, ...map ];
 }
 
-export function getBugMap() {
-    return bugMapArr;
-}
-export function getBugPosition() {
-    return bugPosition;
-}
+// export function getBugMap() {
+//     return bugMapArr;
+// }
+// export function getBugPosition() {
+//     return bugPosition;
+// }

@@ -64,7 +64,11 @@ boxes.addEventListener("click", (e) => {
     }else{
         // 주변 버그 정보 보여주기
         e.target.classList.add("aroundBugCount", "count"+bugMap[index], "clicked");
+<<<<<<< HEAD
+        // console.log("count"+bugMap[index]);
+=======
         console.log("count"+bugMap[index]);
+>>>>>>> 6b277d653a3a9d0daced3e1e96b3d6c02f5cdfda
     }
 });
 
