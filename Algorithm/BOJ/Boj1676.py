@@ -1,12 +1,11 @@
-def factorial(n):
-    if n == 1:
-        return 1
-    return n * factorial(n - 1)
+from math import factorial
 
-if __name__ == "__main__":
-    n = int(input())
-    ans = str(factorial(n))[::-1]
-    for i, x in enumerate(ans):
-        if x != "0":
-            print(i)
-            break
+n = int(input())
+cnt = 0
+ans = str(factorial(n))[::-1]
+for x in ans:
+    if x != "0":
+        break
+    cnt += 1
+
+print(cnt)
