@@ -13,7 +13,7 @@
 - **2022-01-13** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/02.Constructor.md">02.Constructor</a>
 - **2022-01-13** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/03.ObjectMethod%2C%20ComputedProperty.md">03.ObjectMethod, ComputedProperty</a>
 - **2022-01-14** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/04.Symbol.md">04.Symbol</a> `⭐추가 공부 필요⭐`
-- **2022-01-14** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/05.Number%2CMath.md">05.Nuber,Math</a>
+- **2022-01-14** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/05.Number%2CMath.md">05.Number,Math</a>
 
 
 
