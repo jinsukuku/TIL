@@ -14,6 +14,9 @@
 - **2022-01-13** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/03.ObjectMethod%2C%20ComputedProperty.md">03.ObjectMethod, ComputedProperty</a>
 - **2022-01-14** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/04.Symbol.md">04.Symbol</a> `⭐추가 공부 필요⭐`
 - **2022-01-14** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/05.Number%2CMath.md">05.Number,Math</a>
+- **2022-01-16** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/06.String.md">06.String</a>
+- **2022-01-16** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/07.Array(1).md">07.Array(1)</a>
+- **2022-01-16** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/08.Array(2).md">08.Array(2)</a>
 
 
 
