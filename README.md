@@ -17,6 +17,8 @@
 - **2022-01-16** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/06.String.md">06.String</a>
 - **2022-01-16** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/07.Array(1).md">07.Array(1)</a>
 - **2022-01-16** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/08.Array(2).md">08.Array(2)</a>
+- **2022-01-17** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/09.DestructuringAssignment.md">09.DestructuringAssignment</a>
+- **2022-01-17** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/10.RestParameters%2CSpreadSyntax.md">10.RestParameters,SpreadSyntax</a>
 
 
 
