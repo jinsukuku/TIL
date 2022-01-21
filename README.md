@@ -19,6 +19,8 @@
 - **2022-01-16** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/08.Array(2).md">08.Array(2)</a>
 - **2022-01-17** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/09.DestructuringAssignment.md">09.DestructuringAssignment</a>
 - **2022-01-17** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/10.RestParameters%2CSpreadSyntax.md">10.RestParameters,SpreadSyntax</a>
-
+- **2022-01-19** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/11-1.LexicalEnviroment%20VS%20LexicalScope.md">11-1.LexicalEnviroment VS LexicalScope</a>
+- **2022-01-20** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/11-2.LexicalEnviroment%20VS%20ExecutionContext(1).md">11-2.LexicalEnviroment VS ExecutionContext(1)</a>
+- **2022-01-21** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/11-3.LexicalEnviroment%20VS%20ExecutionContext(2).md">11-3.LexicalEnviroment VS ExecutionContext(2)</a>
 
 
