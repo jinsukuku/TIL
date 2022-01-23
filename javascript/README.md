@@ -1,5 +1,5 @@
 # Today-I-Learned : JavaScript
-💡 JavaScript에 대해 학습하고 정리한 내용을 기록하기 위한 저장소 <br>
+💡 JavaScript에 대해 학습하고 정리한 내용을 기록 <br>
 💬 **README.md** 에 날짜, 주제별 정리 <br>
 ✏️ Commit Message는 `Docs: Title` 로 통일
 
