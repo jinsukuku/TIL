@@ -1,26 +1,32 @@
 # Today-I-Learned
 💡 오늘 학습하고 정리한 내용을 기록하기 위한 저장소 <br>
 💬 **README.md** 에 카테고리별로 정리 <br>
-✏️ Commit Message는 `Docs: Category_Title` 로 통일
+✏️ Commit Message는 `Docs: Title` 로 통일
 
 <hr>
 
-### JavaScript
-- **2022-01-11** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/01.variable.md">01.variable</a>
-- **2022-01-11** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/01-1.TemporalDeadZone(TDZ).md">01-1.TemporalDeadZone(TDZ)</a>
-- **2022-01-12** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/01-2.Execution%20Context.md">01-2.Execution Context</a>
-- **2022-01-12** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/01-3.Scope.md">01-3.Scope</a>
-- **2022-01-13** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/02.Constructor.md">02.Constructor</a>
-- **2022-01-13** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/03.ObjectMethod%2C%20ComputedProperty.md">03.ObjectMethod, ComputedProperty</a>
-- **2022-01-14** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/04.Symbol.md">04.Symbol</a> `⭐추가 공부 필요⭐`
-- **2022-01-14** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/05.Number%2CMath.md">05.Number,Math</a>
-- **2022-01-16** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/06.String.md">06.String</a>
-- **2022-01-16** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/07.Array(1).md">07.Array(1)</a>
-- **2022-01-16** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/08.Array(2).md">08.Array(2)</a>
-- **2022-01-17** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/09.DestructuringAssignment.md">09.DestructuringAssignment</a>
-- **2022-01-17** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/10.RestParameters%2CSpreadSyntax.md">10.RestParameters,SpreadSyntax</a>
-- **2022-01-19** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/11-1.LexicalEnviroment%20VS%20LexicalScope.md">11-1.LexicalEnviroment VS LexicalScope</a>
-- **2022-01-20** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/11-2.LexicalEnviroment%20VS%20ExecutionContext(1).md">11-2.LexicalEnviroment VS ExecutionContext(1)</a>
-- **2022-01-21** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/11-3.LexicalEnviroment%20VS%20ExecutionContext(2).md">11-3.LexicalEnviroment VS ExecutionContext(2)</a>
+## JavaScript
+###<a href="">📚 자바스크립트 중급 강좌(140분 완성)</a>
+- 기간 : 2022. 01. 11 ~ 01. 25
+- 강의 : <a href="https://youtu.be/4_WLS9Lj6n4">코딩앙마 - 자바스크립트 중급 강좌(140분 완성)</a>
+
+###<a href="https://github.com/dev-ku/FrontEnd/tree/main/JavaScript">📚 제로베이스 자바스크립트 강의</a>
+- 기간 : 2021. 09. 27 ~ 10. 10
+
+
+
+<br>
+
+## Java
+###<a href="">📚 자바의 정석</a>
+- 기간 : 2022. 01. 29 ~
+- 교재 : 자바의 정석
+- 강의 : <a href="https://youtube.com/playlist?list=PLW2UjW795-f6xWA2_MUhEVgPauhGl3xIp">자바의 정석 기초편(2020최신)</a>
+
+###<a href="https://github.com/dev-ku/Java/tree/main/Multicampus/01.%20Java#%EF%B8%8F-01-java%EA%B8%B0%EC%B4%88-%EC%A0%95%EB%A6%AC">📚 멀티캠퍼스 자바 강의</a>
+- 기간 : 2021. 10. 18 ~ 11. 26
+- 강사 : 하승현 강사님
+
+
 
 
