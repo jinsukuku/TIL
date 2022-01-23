@@ -6,10 +6,10 @@
 <hr>
 
 ## 📚 자바스크립트 중급 강좌(140분 완성)
+- **2022-01-11** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%A4%91%EA%B8%89%20%EA%B0%95%EC%A2%8C(140%EB%B6%84%20%EC%99%84%EC%84%B1)/01.variable.md">01.variable</a>
 - **2022-01-11** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%A4%91%EA%B8%89%20%EA%B0%95%EC%A2%8C(140%EB%B6%84%20%EC%99%84%EC%84%B1)/01-1.TemporalDeadZone(TDZ).md">01-1.TemporalDeadZone(TDZ)</a>
 - **2022-01-12** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%A4%91%EA%B8%89%20%EA%B0%95%EC%A2%8C(140%EB%B6%84%20%EC%99%84%EC%84%B1)/01-2.Execution%20Context.md">01-2.Execution Context</a>
 - **2022-01-12** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%A4%91%EA%B8%89%20%EA%B0%95%EC%A2%8C(140%EB%B6%84%20%EC%99%84%EC%84%B1)/01-3.Scope.md">01-3.Scope</a>
-- **2022-01-11** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%A4%91%EA%B8%89%20%EA%B0%95%EC%A2%8C(140%EB%B6%84%20%EC%99%84%EC%84%B1)/01.variable.md">01.variable</a>
 - **2022-01-13** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%A4%91%EA%B8%89%20%EA%B0%95%EC%A2%8C(140%EB%B6%84%20%EC%99%84%EC%84%B1)/02.Constructor.md">02.Constructor</a>
 - **2022-01-13** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%A4%91%EA%B8%89%20%EA%B0%95%EC%A2%8C(140%EB%B6%84%20%EC%99%84%EC%84%B1)/03.ObjectMethod%2C%20ComputedProperty.md">03.ObjectMethod, ComputedProperty</a>
 - **2022-01-14** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%A4%91%EA%B8%89%20%EA%B0%95%EC%A2%8C(140%EB%B6%84%20%EC%99%84%EC%84%B1)/04.Symbol.md">04.Symbol</a> `⭐추가 공부 필요⭐`
