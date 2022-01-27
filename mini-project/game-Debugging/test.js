@@ -48,7 +48,6 @@ cellCnt = rowCnt * colCnt
 // bugPosition = 버그 위치를 담을 배열
 while(bugPosition.length != bug){ 
     // 버그 위치가 버그 개수랑 같아지면 반복문 종료
-
     // num = 임시 위치 
     var num = Math.round(Math.random()*cellCnt); 
     if(bugPosition.indexOf(num) == -1){
@@ -63,15 +62,9 @@ console.log(bugPosition);
 //// 1. 비어있는 지도 만들기 
 var bugMap = Array.from(Array(rowCnt), ()=> Array(colCnt).fill(0));
 
-[
-    [0, 0, 0, 0, 0,],
-    [0, 0, 0, 0, 0,]
-]
-
-
 //// 2. 버그 넣기 + 주변에 버그 개수 넣기
 bugPosition.forEach(function(idx){
-    row = Math.round(idx/rowCnt);
+    row = Math.floor(idx/rowCnt); // round는 오류 발생 rowCnt와 같아지는 경우가 생겨서 floor로 변경
     col = idx%rowCnt;
     bugMap[row][col] = "B";
     bugMap = setBugMap(bugMap, row, col);
@@ -90,3 +83,5 @@ for(var i = 0; i < rowCnt; i++){
 //// 4-1. 버그다! -> 게임 종료
 //// 4-2. 숫자다! -> 숫자 노출
 //// 4-3. 0이다!! -> 숫자로 둘러쌓인만큼 노출
+
+console.log(bugMap);
