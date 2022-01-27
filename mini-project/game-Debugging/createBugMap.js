@@ -1,13 +1,20 @@
+/*
+* 2차원 배열 형태의 버그 지도 만들기 
+*/
+
 // setBugMap
 function setBugMap(map, row, col){
     var temp = [1, 0 , -1];
     for(i of temp){
         for(j of temp){
             try {
-                if(map[row+i][col-j] != "B"){
+                // not null을 조건에 추가한 이유 : 처음 지정한 크기의 배열을 벗어났을 때, 배열의 공간을 넓히고 값을 추가해버려서 대응
+                if(map[row+i][col-j] != "B" && map[row+i][col-j] != null){
                     map[row+i][col-j] += 1;
                 }
-            } catch (error) { }
+            } catch (error) {
+                
+            }
         }
     }
     return map;
@@ -58,7 +65,7 @@ while(bugPosition.length != bug){
 bugPosition.sort((a, b) => a-b);    // 정렬
 console.log(bugPosition);
 
-// 버그지도 만들기
+// 2차원 버그지도 만들기
 //// 1. 비어있는 지도 만들기 
 var bugMap = Array.from(Array(rowCnt), ()=> Array(colCnt).fill(0));
 
@@ -70,7 +77,7 @@ bugPosition.forEach(function(idx){
     bugMap = setBugMap(bugMap, row, col);
 });
 
-//// 3. 버그맵 확인
+//// 3. 버그맵 확인(출력해보기)
 for(var i = 0; i < rowCnt; i++){
     var temp = "";
     for(var j = 0; j <colCnt; j++){
@@ -79,9 +86,10 @@ for(var i = 0; i < rowCnt; i++){
     console.log(temp);
 }
 
-//// 4. 선택한 셀의 값에 따라서 서로 다른 대응 필요
-//// 4-1. 버그다! -> 게임 종료
-//// 4-2. 숫자다! -> 숫자 노출
-//// 4-3. 0이다!! -> 숫자로 둘러쌓인만큼 노출
+//// 4. 1차원 배열로 변환
+var bugMapArr = [];
+for(var map of bugMap){
+    bugMapArr = [ ...bugMapArr, ...map ];
+}
 
-console.log(bugMap);
+console.log(bugMapArr);

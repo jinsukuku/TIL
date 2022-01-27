@@ -41,8 +41,8 @@ h1{
 
 .headerCount {width: 150px; height:100px;}
 .headerFace  {
-    width: 330px; height:100px; background-color:blue;
-    background: url(img/faceHappy.png) no-repeat center;
+    width: 330px; height:100px;
+    background: url(img/faceSad.png) no-repeat center;
     background-size: contain;
 }
 .headerFace:hover { 
@@ -50,11 +50,16 @@ h1{
     background-size: contain;
     cursor: pointer;
 }
+.happy {
+    background: url(img/faceHappy.png) no-repeat center;
+    background-size: contain;
+}
+
 .headerTimer {width: 150px; height:100px;}
 
-#boxes ul{
+#boxes{
+    width: var( --box * 9);
     height: var( --box * 9);
-    background-color: var( --color01);
 }
 
 #boxes li{
@@ -75,23 +80,41 @@ h1{
     cursor: pointer;
 }
 
-
-#boxes li.bug{
+#boxes li.clicked{
     background-color: #f0f5fc;
     border : 6px solid var( --color03);
     border-right-color:var( --color01);
     border-bottom-color:var( --color01);
+    cursor: pointer;
+    background-size: 80px;
+}
+
+#boxes li.worngClicked{
+    background-color: #fae7e7;
+    border : 6px solid #ead4d4;
+    border-right-color:#f6eaea;
+    border-bottom-color:#f6eaea;
+    cursor: pointer;
+    background-size: 80px;
+}
+
+#boxes li.bug{
     background-image:url(img/bug.png);
     background-size: 86px;
-    cursor: pointer;
 }
 
 #boxes li.ghost{
-    background-color: #f0f5fc;
-    border : 6px solid var( --color03);
-    border-right-color:var( --color01);
-    border-bottom-color:var( --color01);
     background-image:url(img/ghost.png);
-    background-size: 80px;
-    cursor: pointer;
 }
+
+#boxes li.aroundBugCount{background-size: 72px;}
+#boxes li.count0{ background-image:url(img/number/00.png);}
+#boxes li.count1{ background-image:url(img/number/01.png);}
+#boxes li.count2{ background-image:url(img/number/02.png);}
+#boxes li.count3{ background-image:url(img/number/03.png);}
+#boxes li.count4{ background-image:url(img/number/04.png);}
+#boxes li.count5{ background-image:url(img/number/05.png);}
+#boxes li.count6{ background-image:url(img/number/06.png);}
+#boxes li.count7{ background-image:url(img/number/07.png);}
+#boxes li.count8{ background-image:url(img/number/08.png);}
+#boxes li.count9{ background-image:url(img/number/09.png);}
