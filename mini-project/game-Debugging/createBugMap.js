@@ -2,24 +2,6 @@
 * 2차원 배열 형태의 버그 지도 만들기 
 */
 
-// setBugMap
-function setBugMap(map, row, col){
-    var temp = [1, 0 , -1];
-    for(i of temp){
-        for(j of temp){
-            try {
-                // not null을 조건에 추가한 이유 : 처음 지정한 크기의 배열을 벗어났을 때, 배열의 공간을 넓히고 값을 추가해버려서 대응
-                if(map[row+i][col-j] != "B" && map[row+i][col-j] != null){
-                    map[row+i][col-j] += 1;
-                }
-            } catch (error) {
-                
-            }
-        }
-    }
-    return map;
-}
-
 // LEVEL
 
 function Level (bug, row, col){  // Level 생성자 함수
@@ -48,11 +30,23 @@ rowCnt = level[selectedLevel].row;
 colCnt = level[selectedLevel].col;
 cellCnt = rowCnt * colCnt
 
+// setBugMap
+function setBugMap(map, row, col){
+    var temp = [1, 0 , -1];
+    for(i of temp){
+        for(j of temp){
+            try {
+                // not null을 조건에 추가한 이유 : 처음 지정한 크기의 배열을 벗어났을 때, 배열의 공간을 넓히고 값을 추가해버려서 대응
+                if(map[row+i][col-j] != "B" && map[row+i][col-j] != null){
+                    map[row+i][col-j] += 1;
+                }
+            } catch (error) {}
+        }
+    }
+    return map;
+}
+
 // 버그 위치 만들기
-// row = 9, col =9 
-// cell 9 * 9 = 81
-// bug = 9개
-// bugPosition = 버그 위치를 담을 배열
 while(bugPosition.length != bug){ 
     // 버그 위치가 버그 개수랑 같아지면 반복문 종료
     // num = 임시 위치 
@@ -93,7 +87,3 @@ for(var map of bugMap){
 }
 
 console.log(bugMapArr);
-
-
-// 외부 접근 허용
-exportx.bugPosition = bugPosition;
