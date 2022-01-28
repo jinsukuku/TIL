@@ -1,25 +1,22 @@
-var tempBugPosition = [
-    4, 12, 28, 35, 38,
-   49, 52, 73, 77
- ];
-var tempBugMap = [
-    0,   0,   1,   2, 'B', 1,   0, 0, 0, 0, 0, 1,
-    'B', 2,   1,   0, 0,   0,   1, 1, 2, 1, 1, 0,
-    0,   1,   1,   1, 'B', 2,   1, 0, 0, 0, 1, 'B',
-    1,   2,   'B', 2, 1,   1,   1, 2, 2, 0, 1, 1,
-    2,   'B', 1,   1, 'B', 1,   0, 0, 0, 1, 1, 1,
-    1,   1,   1,   1, 1,   1,   0, 1, 1, 1, 0, 0,
-    1,   'B', 1,   0, 1,   'B', 1, 0, 0
-  ];
-
-var userBugCount = 9;
+var tempBugPosition;
+var tempBugMap;
+var userBugCount;
 var timer = 60 * 60 * 1000;
 var gameOver = false;
 var boxes = document.getElementById("boxes");
+var face = document.getElementsByClassName("headerFace")[0];
 
+// li의 index를 가져오는 방법을 몰라서, name 값을 index로 지정함
 for(var i = 0; i < 81; i++){
     boxes.children[i].setAttribute("name", i);
 }
+
+//게임 오버 후, 얼굴 클릭하면 초기화
+face.addEventListener("click", (e) => {
+    if(gameOver) {
+        initSetting();
+    }
+});
 
 // left click event
 boxes.addEventListener("click", (e) => {

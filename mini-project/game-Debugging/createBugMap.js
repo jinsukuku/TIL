@@ -93,3 +93,7 @@ for(var map of bugMap){
 }
 
 console.log(bugMapArr);
+
+
+// 외부 접근 허용
+exportx.bugPosition = bugPosition;
