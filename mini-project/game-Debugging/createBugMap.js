@@ -20,6 +20,7 @@ var level = { // Level 정보
 var selectedLevel = 1;
 var time = 60 * 60 * 1000;  //ms
 var bug;        // bug 개수 
+
 var cellCnt;    // cell 개수
 var rowCnt;
 var colCnt;
@@ -79,6 +80,9 @@ for(var i = 0; i < rowCnt; i++){
     }
     console.log(temp);
 }
+
+console.log(bugMap);
+
 
 //// 4. 1차원 배열로 변환
 var bugMapArr = [];

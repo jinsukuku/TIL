@@ -1,13 +1,27 @@
 // import
-import createBugMap from "createBugMap.js";
-// console.log(createBugMap.time);
-
+// import createBugMap from "createBugMap.js";
+// console.log(createBugMap.time);s
 
 // initSetting() 을 위한 전역변수
 var bugPosition;
 var bugMap; 
 var userBugCount;
 var bugCount;
+
+// temp bug map setting
+bugPosition = [
+    6, 18, 22, 28, 32,
+   51, 57, 68, 80
+ ];
+bugMap = [
+    0, 0, 0, 0,   0,   1, 'B', 1, 0,   1,   1,   0,
+    1, 1, 2, 1,   1,   0, 'B', 2, 1,   1,   'B', 2,
+    1, 0, 0, 2,   'B', 1, 1,   2, 'B', 1,   0,   0,
+    1, 1, 1, 0,   1,   2, 2,   1, 0,   0,   0,   1,
+    1, 1, 1, 'B', 1,   0, 0,   0, 1,   'B', 2,   2,
+    2, 1, 0, 0,   0,   1, 1,   2, 'B', 1,   1,   1,
+    0, 0, 0, 0,   1,   1, 1,   1, 'B'
+  ]
 
 // default variable 
 var timer = 60 * 60 * 1000;
@@ -23,8 +37,8 @@ for(var i = 0; i < 81; i++){
 }
 
 // BugPosition, BugMap, BugCount 설정
-function initSetting(){
-}
+// function initSetting(){
+// }
 
 /*
 * Click event
@@ -35,7 +49,8 @@ function initSetting(){
 face.addEventListener("click", (e) => {
     //게임 오버 후, 얼굴 클릭하면 초기화
     if(gameOver) {
-        initSetting();
+        // initSetting();
+        location.reload(true);
     }
 });
 
@@ -47,6 +62,7 @@ boxes.addEventListener("click", (e) => {
     var index = Number(e.target.attributes["name"].value);
     var classArr = [ ... e.target.classList ];
     if(classArr.indexOf("aroundBugCount") != -1) return;    
+    if(classArr.indexOf("ghost") != -1) return;    
 
     if(bugPosition.indexOf(index) != -1){
         // 버그칸이라면 모든 버그 칸을 bug이미지로 바꾸기 = GameOver
@@ -75,6 +91,12 @@ boxes.addEventListener("click", (e) => {
 boxes.addEventListener("contextmenu", function(e){
     e.preventDefault();     // 게임오버여도 타일 위에서의 contextMenu는 확장되지 않도록
     if(gameOver) return;    // 게임오버상태라면 더이상의 클릭을 허용하지 않는다
+
+    // 숫자가 표시된 타일이라면, 클릭 막기
+    var index = Number(e.target.attributes["name"].value);
+    var classArr = [ ... e.target.classList ];
+    if(classArr.indexOf("aroundBugCount") != -1) return;    
+
     console.log("right click!");
 
     if(!e.target.className){

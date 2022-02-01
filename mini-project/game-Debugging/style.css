@@ -2,7 +2,7 @@
 e3eaf3
 d4dfea */
 :root {
-    --box: 70px;
+    --box: 50px;
     --color01: #eaf0f6;
     --color02: #e3eaf3;
     --color03: #d4dfea;
@@ -15,9 +15,8 @@ d4dfea */
     list-style: none;
 }
 
-
 .wrapper {
-    width: 630px;
+    width: 450px;
     margin: 0 auto;
 }
 
@@ -32,34 +31,34 @@ h1{
 
 .header ul {
     overflow:hidden;
-    box-sizing: border-box;
+    box-sizing: padding-box;
 }
 
 .header li {
     float:left;
 }
 
-.headerCount {width: 150px; height:100px;}
+.headerCount {width: 100px; height:100px;}
 .headerFace  {
-    width: 330px; height:100px;
+    width: 230px; height:100px;
     background: url(img/faceSad.png) no-repeat center;
     background-size: contain;
 }
-.headerFace:hover { 
+.headerFace:hover {cursor: pointer;}
+.happy:hover { 
     background: url(img/faceWow.png) no-repeat center; 
     background-size: contain;
-    cursor: pointer;
 }
 .happy {
     background: url(img/faceHappy.png) no-repeat center;
     background-size: contain;
 }
 
-.headerTimer {width: 150px; height:100px;}
+.headerTimer {width: 100px; height:100px;}
 
 #boxes{
-    width: var( --box * 9);
-    height: var( --box * 9);
+    width: 450px;
+    height: 450px;
 }
 
 #boxes li{
@@ -72,11 +71,6 @@ h1{
 }
 
 #boxes li:hover{
-    /* background-color: #f0f5fc;
-    border : 6px solid var( --color03);
-    border-right-color:var( --color01);
-    border-bottom-color:var( --color01);
-    background-image:none; */
     cursor: pointer;
 }
 
@@ -86,7 +80,7 @@ h1{
     border-right-color:var( --color01);
     border-bottom-color:var( --color01);
     cursor: pointer;
-    background-size: 80px;
+    background-size: var( --box );
 }
 
 #boxes li.worngClicked{
@@ -95,19 +89,19 @@ h1{
     border-right-color:#f6eaea;
     border-bottom-color:#f6eaea;
     cursor: pointer;
-    background-size: 80px;
+    background-size: var( --box );
 }
 
 #boxes li.bug{
     background-image:url(img/bug.png);
-    background-size: 86px;
+    background-size: var( --box + 6 );
 }
 
 #boxes li.ghost{
     background-image:url(img/ghost.png);
 }
 
-#boxes li.aroundBugCount{background-size: 72px;}
+#boxes li.aroundBugCount{background-size: var( --box );}
 #boxes li.count0{ background-image:url(img/number/00.png);}
 #boxes li.count1{ background-image:url(img/number/01.png);}
 #boxes li.count2{ background-image:url(img/number/02.png);}
