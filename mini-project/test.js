@@ -1,7 +1,34 @@
-let users = ["Mike", "Tom", "Jane"];
-let [user1, user2, user3] = users;
+const arrlike = {
+    // Symbol.iterator() 
+    [Symbol.iterator]() {
+        this.i = 0;
+        return this;
+    },
 
-console.log(user1); // Mike
-console.log(user2); // Tom
-console.log(user3); // Jane
-console.log(users);
+    // next()
+    next() {
+        return { value: this[this.i], done: ++this.i > this.length };
+    },
+
+    // index
+    0: "Nice",
+    1: "to",
+    2: "meet",
+    3: "you",
+
+    // length
+    length: 4,
+}
+
+for(var txt of arrlike){
+    console.log(txt);
+}
+
+console.log(...arrlike);
+
+var [ a, b, c, d ] = arrlike;
+
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
