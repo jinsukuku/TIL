@@ -1,14 +1,9 @@
+document.body.innerHTML += '<button>버튼1</button><button>버튼2</button>';
+const btnList = document.querySelectorAll('button');
+const [btn1, btn2] = [btnList[0], btnList[1]];
 
-function Student() {
-    this.name = "짱구";
-    return {
-        name: "유리",
-        // 일반 함수의 this : 생성자 함수의 this이므로, 객체 자기 자신을 의미
-        print: function(){
-            console.log(this.name + "입니다");
-        } 
-    }
-}
+// btn1 클릭시 btn1 객체 출력 (this === btn1)
+btn1.addEventListener("click", function() { console.log(this); });
 
-const student = new Student();
-student.print();    // 유리입니다
+// btn2 클릭시 Window 객체 출력 (this === Window)
+btn2.addEventListener("click", () => { console.log(this); });
