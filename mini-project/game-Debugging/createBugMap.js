@@ -69,9 +69,9 @@ for(let map of bugMap){
     bugMapArr = [ ...bugMapArr, ...map ];
 }
 
-// export function getBugMap() {
-//     return bugMapArr;
-// }
-// export function getBugPosition() {
-//     return bugPosition;
-// }
+export function getBugMap() {
+    return bugMapArr;
+}
+export function getBugPosition() {
+    return bugPosition;
+}
