@@ -1,23 +1,26 @@
 import {getBugMap} from './createBugMap.js';
 import {getBugPosition} from './createBugMap.js';
+import {getOpenTileList} from './getOpenTileList.js';
+
+//selector test
+let test = document.querySelectorAll("li");
 
 // initSetting() 을 위한 전역변수
-var userBugCount = 0;
-var bugCount = 9;
+let userBugCount = 0;
+let bugCount = 9;
 let bugMap = getBugMap();
 let bugPosition = getBugPosition();
-console.log(bugPosition);
 
-// default variable 
-var timer = 60 * 60 * 1000;
-var gameOver = false;
+// default letiable 
+let timer = 60 * 60 * 1000;
+let gameOver = false;
 
 // HTML element reference
-var boxes = document.getElementById("boxes");
-var face = document.getElementsByClassName("headerFace")[0];
+let boxes = document.getElementById("boxes");
+let face = document.getElementsByClassName("headerFace")[0];
 
 // li의 index를 가져오는 방법을 몰라서, name 값을 index로 지정함
-for(var i = 0; i < 81; i++){
+for(let i = 0; i < 81; i++){
     boxes.children[i].setAttribute("name", i);
 }
 
@@ -25,13 +28,14 @@ for(var i = 0; i < 81; i++){
 * Click event
 */
 
-
 // *face click event 
 face.addEventListener("click", (e) => {
     //게임 오버 후, 얼굴 클릭하면 초기화
     if(gameOver) {
         // initSetting();
         location.reload(true);
+    }else if(confirm("RESTART?")){
+        location.reload(true);       
     }
 });
 
@@ -40,16 +44,25 @@ boxes.addEventListener("click", (e) => {
     if(gameOver) return;    // 게임오버상태라면 더이상의 클릭을 허용하지 않는다
 
     // 숫자가 표시된 타일이라면, 클릭 막기
-    var index = Number(e.target.attributes["name"].value);
-    var classArr = [ ... e.target.classList ];
-    if(classArr.indexOf("aroundBugCount") != -1) return;    
+    let index = Number(e.target.attributes["name"].value);
+
+    // index를 2차원 좌표로 수정
+    let row = Math.floor(index / 9);
+    let col = index % 9;
+
+    // 클릭된 요소의 클래스 리스트 가져오기
+    let classArr = [ ... e.target.classList ];
+
+    // 클릭되어 있는 상태라면 return 
+    if(classArr.indexOf("aroundBugCount") != -1) return;
     if(classArr.indexOf("ghost") != -1) return;    
 
+    // 버그를 클릭했다면
     if(bugPosition.indexOf(index) != -1){
         // 버그칸이라면 모든 버그 칸을 bug이미지로 바꾸기 = GameOver
         console.log("bug!!");
-        for(var i = 0; i < bugPosition.length; i++){
-            var index = bugPosition[i];
+        for(let i = 0; i < bugPosition.length; i++){
+            let index = bugPosition[i];
             console.log(boxes.children[index].classList.remove("ghost"));
             boxes.children[index].classList.add("bug", "clicked");
             // **잘못된 위치의 고스트 처리
@@ -62,13 +75,21 @@ boxes.addEventListener("click", (e) => {
         gameOver = true;
         
     }else{
-        // 주변 버그 정보 보여주기
-        e.target.classList.add("aroundBugCount", "count"+bugMap[index], "clicked");
-<<<<<<< HEAD
-        // console.log("count"+bugMap[index]);
-=======
-        console.log("count"+bugMap[index]);
->>>>>>> 6b277d653a3a9d0daced3e1e96b3d6c02f5cdfda
+        // 최초 클릭이라면 주변 버그 정보 보여주기 + 재귀 불러오기(openTile)
+        if(bugMap[row][col] == 0){
+            let clickedList = getOpenTileList(index, bugMap);
+            for(let i of clickedList){
+                let now = test[i+3];
+                let nowClassList = [...now.classList];
+                if(!nowClassList.includes("clicked")){
+                    row = Math.floor(i/9);
+                    col = i%9;
+                    now.classList.add("aroundBugCount", "count"+bugMap[row][col], "clicked")
+                }
+            }
+        }else{
+            e.target.classList.add("aroundBugCount", "count"+bugMap[row][col], "clicked");
+        }
     }
 });
 
@@ -78,8 +99,8 @@ boxes.addEventListener("contextmenu", function(e){
     if(gameOver) return;    // 게임오버상태라면 더이상의 클릭을 허용하지 않는다
 
     // 숫자가 표시된 타일이라면, 클릭 막기
-    var index = Number(e.target.attributes["name"].value);
-    var classArr = [ ... e.target.classList ];
+    let index = Number(e.target.attributes["name"].value);
+    let classArr = [ ... e.target.classList ];
     if(classArr.indexOf("aroundBugCount") != -1) return;    
 
     console.log("right click!");

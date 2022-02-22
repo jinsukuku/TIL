@@ -70,7 +70,7 @@ for(let map of bugMap){
 }
 
 export function getBugMap() {
-    return bugMapArr;
+    return bugMap;
 }
 export function getBugPosition() {
     return bugPosition;
