@@ -2,26 +2,27 @@ import {getBugMap} from './createBugMap.js';
 import {getBugPosition} from './createBugMap.js';
 import {getOpenTileList} from './getOpenTileList.js';
 
-//selector test
-let test = document.querySelectorAll("li");
 
 // initSetting() 을 위한 전역변수
 let userBugCount = 0;
-let bugCount = 9;
 let bugMap = getBugMap();
 let bugPosition = getBugPosition();
+let userBugPosition = [];
 
 // default letiable 
 let timer = 60 * 60 * 1000;
 let gameOver = false;
 
 // HTML element reference
-let boxes = document.getElementById("boxes");
+let tile = document.querySelectorAll("li");
+let tileWrap = document.getElementById("tileWrap");
 let face = document.getElementsByClassName("headerFace")[0];
+let headerTimer = document.getElementsByClassName("headerTimer")[0];
+
 
 // li의 index를 가져오는 방법을 몰라서, name 값을 index로 지정함
 for(let i = 0; i < 81; i++){
-    boxes.children[i].setAttribute("name", i);
+    tileWrap.children[i].setAttribute("name", i);
 }
 
 /*
@@ -38,9 +39,8 @@ face.addEventListener("click", (e) => {
         location.reload(true);       
     }
 });
-
-// *boxes left click event
-boxes.addEventListener("click", (e) => {
+// *tileWrap left click event
+tileWrap.addEventListener("click", (e) => {
     if(gameOver) return;    // 게임오버상태라면 더이상의 클릭을 허용하지 않는다
 
     // 숫자가 표시된 타일이라면, 클릭 막기
@@ -62,10 +62,9 @@ boxes.addEventListener("click", (e) => {
         // 버그칸이라면 모든 버그 칸을 bug이미지로 바꾸기 = GameOver
         console.log("bug!!");
         for(let i = 0; i < bugPosition.length; i++){
-            let index = bugPosition[i];
-            console.log(boxes.children[index].classList.remove("ghost"));
-            boxes.children[index].classList.add("bug", "clicked");
             // **잘못된 위치의 고스트 처리
+            let index = bugPosition[i];
+            tileWrap.children[index].classList.add("bug", "clicked");
         }
         
         // 상단 이모티콘 우는 얼굴로 이미지 변경
@@ -79,12 +78,10 @@ boxes.addEventListener("click", (e) => {
         if(bugMap[row][col] == 0){
             let clickedList = getOpenTileList(index, bugMap);
             for(let i of clickedList){
-                let now = test[i+3];
+                let now = tile[i+3];
                 let nowClassList = [...now.classList];
                 if(!nowClassList.includes("clicked")){
-                    row = Math.floor(i/9);
-                    col = i%9;
-                    now.classList.add("aroundBugCount", "count"+bugMap[row][col], "clicked")
+                    now.classList.add("aroundBugCount", "count"+bugMap[Math.floor(i/9)][i%9], "clicked")
                 }
             }
         }else{
@@ -93,9 +90,9 @@ boxes.addEventListener("click", (e) => {
     }
 });
 
-// *boxes right click event
-boxes.addEventListener("contextmenu", function(e){
-    e.preventDefault();     // 게임오버여도 타일 위에서의 contextMenu는 확장되지 않도록
+// *tileWrap right click event
+tileWrap.addEventListener("contextmenu", function(e){
+    e.preventDefault();     // 게임오버여도 타일 위에서의 contextMenu는 확장되지 않도록 처리
     if(gameOver) return;    // 게임오버상태라면 더이상의 클릭을 허용하지 않는다
 
     // 숫자가 표시된 타일이라면, 클릭 막기
@@ -107,7 +104,27 @@ boxes.addEventListener("contextmenu", function(e){
 
     if(!e.target.className){
         e.target.classList.add("clicked", "ghost");
+        userBugCount++;
+        userBugPosition.push(index);
     }else{
         e.target.className = "";
+        userBugCount--;
+        let idx = userBugPosition.indexOf(index);
+        userBugPosition.splice(idx);
+    }
+
+    // userBugPosition과 bugPosition 길이가 동일하면
+    if(userBugPosition.length >= bugPosition.length){
+        // 오름차순 정렬 후
+        userBugPosition.sort((a,b)=> a-b);
+        // 문자열로 치환하여 비교
+        if(userBugPosition.join() == bugPosition.join()){
+            // 같으면 클리어
+            console.log("Congraturation!!");
+            console.log(userBugPosition);
+            console.log(bugPosition);
+        }else{
+            console.log("Wrong!");
+        }
     }
 });

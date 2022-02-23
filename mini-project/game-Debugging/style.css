@@ -56,12 +56,12 @@ h1{
 
 .headerTimer {width: 100px; height:100px;}
 
-#boxes{
+#tileWrap{
     width: 450px;
     height: 450px;
 }
 
-#boxes li{
+#tileWrap li{
     width: var( --box ); 
     height: var( --box );
     float: left;
@@ -70,11 +70,11 @@ h1{
     background-size: cover;
 }
 
-#boxes li:hover{
+#tileWrap li:hover{
     cursor: pointer;
 }
 
-#boxes li.clicked{
+#tileWrap li.clicked{
     background-color: #f0f5fc;
     border : 6px solid var( --color03);
     border-right-color:var( --color01);
@@ -83,7 +83,7 @@ h1{
     background-size: var( --box );
 }
 
-#boxes li.worngClicked{
+#tileWrap li.worngClicked{
     background-color: #fae7e7;
     border : 6px solid #ead4d4;
     border-right-color:#f6eaea;
@@ -92,23 +92,23 @@ h1{
     background-size: var( --box );
 }
 
-#boxes li.bug{
+#tileWrap li.bug{
     background-image:url(img/bug.png);
     background-size: var( --box + 6 );
 }
 
-#boxes li.ghost{
+#tileWrap li.ghost{
     background-image:url(img/ghost.png);
 }
 
-#boxes li.aroundBugCount{background-size: var( --box );}
-#boxes li.count0{ background-image:url(img/number/00.png);}
-#boxes li.count1{ background-image:url(img/number/01.png);}
-#boxes li.count2{ background-image:url(img/number/02.png);}
-#boxes li.count3{ background-image:url(img/number/03.png);}
-#boxes li.count4{ background-image:url(img/number/04.png);}
-#boxes li.count5{ background-image:url(img/number/05.png);}
-#boxes li.count6{ background-image:url(img/number/06.png);}
-#boxes li.count7{ background-image:url(img/number/07.png);}
-#boxes li.count8{ background-image:url(img/number/08.png);}
-#boxes li.count9{ background-image:url(img/number/09.png);}
+#tileWrap li.aroundBugCount{background-size: var( --box );}
+#tileWrap li.count0{ background-image:url(img/number/00.png);}
+#tileWrap li.count1{ background-image:url(img/number/01.png);}
+#tileWrap li.count2{ background-image:url(img/number/02.png);}
+#tileWrap li.count3{ background-image:url(img/number/03.png);}
+#tileWrap li.count4{ background-image:url(img/number/04.png);}
+#tileWrap li.count5{ background-image:url(img/number/05.png);}
+#tileWrap li.count6{ background-image:url(img/number/06.png);}
+#tileWrap li.count7{ background-image:url(img/number/07.png);}
+#tileWrap li.count8{ background-image:url(img/number/08.png);}
+#tileWrap li.count9{ background-image:url(img/number/09.png);}
