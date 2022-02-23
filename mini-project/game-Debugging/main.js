@@ -9,8 +9,8 @@ let bugMap = getBugMap();
 let bugPosition = getBugPosition();
 let userBugPosition = [];
 
-// default letiable 
-let timer = 60 * 60 * 1000;
+// default  
+let maxTime = 60 * 60 * 1000;
 let gameOver = false;
 
 // HTML element reference
@@ -19,6 +19,12 @@ let tileWrap = document.getElementById("tileWrap");
 let face = document.getElementsByClassName("headerFace")[0];
 let headerTimer = document.getElementsByClassName("headerTimer")[0];
 
+// Timer 설정
+function setTimer(){
+    let time = Number(headerTimer.innerText);
+    headerTimer.innerText = ++time;   
+}
+let timer = setInterval(setTimer, 1000);;
 
 // li의 index를 가져오는 방법을 몰라서, name 값을 index로 지정함
 for(let i = 0; i < 81; i++){
@@ -72,7 +78,7 @@ tileWrap.addEventListener("click", (e) => {
 
         // 더이상의 클릭이벤트를 허용하지않기 위해 gameover -> true로 설정
         gameOver = true;
-        
+        clearInterval(timer);
     }else{
         // 최초 클릭이라면 주변 버그 정보 보여주기 + 재귀 불러오기(openTile)
         if(bugMap[row][col] == 0){
@@ -121,8 +127,14 @@ tileWrap.addEventListener("contextmenu", function(e){
         if(userBugPosition.join() == bugPosition.join()){
             // 같으면 클리어
             console.log("Congraturation!!");
-            console.log(userBugPosition);
-            console.log(bugPosition);
+            // 클리어 시, 모든 타일 오픈하기
+            for(let i = 0; i < 81; i++){
+                let now = tile[i+3];
+                let nowClassList = [...now.classList];
+                if(!nowClassList.includes("clicked")){
+                    now.classList.add("aroundBugCount", "count"+bugMap[Math.floor(i/9)][i%9], "clicked")
+                }
+            }
         }else{
             console.log("Wrong!");
         }
