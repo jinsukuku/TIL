@@ -1,3 +1,5 @@
+# [문제] 접미사 배열
+
 import sys
 
 str = sys.stdin.readline().rstrip()
@@ -7,5 +9,5 @@ for i in range(len(str)):
     arr.append(str[i:])
 
 arr.sort()
-for str in arr:
-    print(str)
+for res in arr:
+    print(res)
