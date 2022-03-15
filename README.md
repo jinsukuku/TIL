@@ -7,7 +7,9 @@
 
 ## Mini-Project
 ### <a href="https://github.com/dev-ku/Today-I-Learned/tree/main/mini-project/game-Debugging">📚 Debugging-Game (지뢰찾기)</a>
-- 기간 : 2022. 03. 15 ~ 03. 28
+- 기간 : 2022. 02. 05 ~ 02. 18
+
+<br>
 
 ## Clone-Coding
 ### <a href="https://github.com/dev-ku/Today-I-Learned/tree/main/clone-coding/zoom-clone">📚 Zoom Clone Coding</a>
