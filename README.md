@@ -18,6 +18,10 @@
 <br>
 
 ## JavaScript
+### <a href="#">📚 React와 Node.js를 활용한 고객 관리 시스템 개발(동빈나)</a>
+- 기간 : 2022. 03.26 ~ 04.06
+- 강의 : <a href="https://youtube.com/playlist?list=PLRx0vPvlEmdD1pSqKZiTihy5rplxecNpz">React와 Node.js를 활용한 고객 관리 시스템 개발</a>
+
 ### <a href="https://github.com/dev-ku/Today-I-Learned/tree/main/javascript/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%A4%91%EA%B8%89%20%EA%B0%95%EC%A2%8C(140%EB%B6%84%20%EC%99%84%EC%84%B1)">📚 자바스크립트 중급 강좌(140분 완성)</a>
 - 기간 : 2022. 01. 11 ~ 01. 25
 - 강의 : <a href="https://youtu.be/4_WLS9Lj6n4">코딩앙마 - 자바스크립트 중급 강좌(140분 완성)</a>
