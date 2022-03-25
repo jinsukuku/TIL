@@ -1,4 +1,6 @@
 import express from "express"
+import http from "http"
+import WebSocket from "ws"
 
 const app = express(); // create app
 
@@ -14,6 +16,15 @@ app.get("/", (req,res) => res.render("home"));
 app.get("/*", (req,res) => res.redirect("/"));
 
 // port settings
-app.listen(3000); 
+const handleListen = () => console.log(`Listening on http://localhost:3000`);
+// app.listen(3000, handleListen); 
+
+// Create http server 
+const server = http.createServer(app);
+// Create ws server 
+const wss = new WebSocket.Server({server});
+
+// server listen
+server.listen(3000, handleListen); 
 
 console.log("HELLO NODE-WORLD");

@@ -12,9 +12,6 @@
 <br>
 
 ## Clone-Coding
-### <a href="https://github.com/dev-ku/Today-I-Learned/tree/main/clone-coding/zoom-clone">📚 Zoom Clone Coding</a>
-- 기간 : 2022. 03. 15 ~ 03. 28
-
 ### <a href="https://github.com/dev-ku/Today-I-Learned/tree/main/clone-coding/chrome-app">📚 Chrome App Clone Coding</a>
 - 기간 : 2021. 09. 20 ~ 10. 10
 
