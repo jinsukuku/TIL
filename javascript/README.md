@@ -34,7 +34,7 @@
 - **2022-01-24** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%A4%91%EA%B8%89%20%EA%B0%95%EC%A2%8C(140%EB%B6%84%20%EC%99%84%EC%84%B1)/15.Class.md">15.Class</a>
 - **2022-01-24** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%A4%91%EA%B8%89%20%EA%B0%95%EC%A2%8C(140%EB%B6%84%20%EC%99%84%EC%84%B1)/16.Promise.md">16.Promise</a>
 - **2022-01-24** | <a href="https://github.com/dev-ku/Today-I-Learned/blob/main/javascript/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%A4%91%EA%B8%89%20%EA%B0%95%EC%A2%8C(140%EB%B6%84%20%EC%99%84%EC%84%B1)/17.async%2Cawait.md">17.async,await</a>
-- **2022-03-26** | <a href="">18.Generator</a>
+- **2022-03-27** | <a href="https://github.com/jinsukuku/Today-I-Learned/blob/main/javascript/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%A4%91%EA%B8%89%20%EA%B0%95%EC%A2%8C(140%EB%B6%84%20%EC%99%84%EC%84%B1)/18.Generator.md">18.Generator</a>
 
 
 
