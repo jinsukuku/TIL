@@ -6,7 +6,12 @@
 <hr>
 
 ## 📚 React와 Node.js를 활용한 고객 관리 시스템 개발(동빈나)
-- **2022-03-26** | <a href=""></a>
+- **2022-03-26** | <a href="https://github.com/jinsukuku/Today-I-Learned/blob/main/javascript/React%EC%99%80%20Node.js%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%9C%20%EA%B3%A0%EA%B0%9D%20%EA%B4%80%EB%A6%AC%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EA%B0%9C%EB%B0%9C(%EB%8F%99%EB%B9%88%EB%82%98)/01.CreateApp.md">01.CreateApp</a>
+- **2022-03-26** | <a href="https://github.com/jinsukuku/Today-I-Learned/blob/main/javascript/React%EC%99%80%20Node.js%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%9C%20%EA%B3%A0%EA%B0%9D%20%EA%B4%80%EB%A6%AC%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EA%B0%9C%EB%B0%9C(%EB%8F%99%EB%B9%88%EB%82%98)/02.ModifyApp.md">02.ModifyApp</a>
+- **2022-03-27** | <a href="https://github.com/jinsukuku/Today-I-Learned/blob/main/javascript/React%EC%99%80%20Node.js%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%9C%20%EA%B3%A0%EA%B0%9D%20%EA%B4%80%EB%A6%AC%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EA%B0%9C%EB%B0%9C(%EB%8F%99%EB%B9%88%EB%82%98)/03.CreateComponent.md">03.CreateComponent</a>
+- **2022-03-27** | <a href="https://github.com/jinsukuku/Today-I-Learned/blob/main/javascript/React%EC%99%80%20Node.js%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%9C%20%EA%B3%A0%EA%B0%9D%20%EA%B4%80%EB%A6%AC%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EA%B0%9C%EB%B0%9C(%EB%8F%99%EB%B9%88%EB%82%98)/04.Recap(1-3).md">04.Recap(1-3)</a>
+- **2022-03-27** | <a href="https://github.com/jinsukuku/Today-I-Learned/blob/main/javascript/React%EC%99%80%20Node.js%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%9C%20%EA%B3%A0%EA%B0%9D%20%EA%B4%80%EB%A6%AC%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EA%B0%9C%EB%B0%9C(%EB%8F%99%EB%B9%88%EB%82%98)/05.StructuringComponent.md">05.StructuringComponent</a>
+- **2022-03-28** | <a href="">06.</a>
 
 <br>
 
