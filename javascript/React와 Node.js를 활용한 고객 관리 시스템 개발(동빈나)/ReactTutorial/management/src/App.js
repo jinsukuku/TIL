@@ -20,7 +20,7 @@ const styles = theme => ({
     overflowX: "auto",
   },
   table: {
-    minWidht: 1080,
+    minWidth: 1080,
   }
 })
 
