@@ -24,31 +24,24 @@ const styles = theme => ({
   }
 })
 
-
-const customers = [{
-  'id': 1,
-  'image': 'https://placeimg.com/64/64/1',
-  'name': '짱구',
-  'age': 5,
-  'address': '떡잎마을',
-  'class': '해바라기반',
-},{
-  'id': 2,
-  'image': 'https://placeimg.com/64/64/2',
-  'name': '유리',
-  'age': 5,
-  'address': '떡잎마을',
-  'class': '해바라기반',
-},{
-  'id': 3,
-  'image': 'https://placeimg.com/64/64/3',
-  'name': '치타',
-  'age': 7,
-  'address': '새싹마을',
-  'class': '장미반',
-},
-]
 class App extends Component {
+
+  state = {
+    customers: ""
+  }
+
+  componentDidMount(){
+    this.callApi()
+      .then(res => this.setState({customers: res}))
+      .catch(err => console.log(err));
+  }
+
+  callApi = async() => {
+    const response = await fetch('/api/customers'); // api 연결
+    const body = await response.json(); // api 로부터 받아온 데이터를 json형태로 
+    return body; // return 
+  }
+
   render(){
     const { classes } = this.props
     return (
@@ -65,7 +58,7 @@ class App extends Component {
             </TableRow>
           </TableHead>
           <TableBody>
-            {customers.map( c => {
+            {this.state.customers ? this.state.customers.map( c => {
                 return (
                   <Customer
                     key = {c.id}
@@ -77,7 +70,7 @@ class App extends Component {
                     class = {c.class}
                   />
                 )
-              })
+              }) : ""
             }
           </TableBody>
         </Table>
