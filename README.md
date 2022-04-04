@@ -43,7 +43,3 @@
 ### <a href="https://github.com/dev-ku/Java/tree/main/Multicampus/01.%20Java#%EF%B8%8F-01-java%EA%B8%B0%EC%B4%88-%EC%A0%95%EB%A6%AC">📚 멀티캠퍼스 자바 강의</a>
 - 기간 : 2021. 10. 18 ~ 11. 26
 - 강사 : 하승현
-
-
-
-
