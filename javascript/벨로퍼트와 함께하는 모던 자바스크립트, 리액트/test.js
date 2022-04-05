@@ -1,19 +1,13 @@
-class Animal {
-  constructor(type, name, sound){
-    this.type = type;
-    this.name = name;
-    this.sound = sound;
+function makeSound(name) {
+  const sounds = {
+    'Dog': '멍멍',
+    'Cat': '야옹',
+    'Bear': '우워어',
+    'Bird': '짹짹',
   }
-  say() {
-    console.log(this.sound);
-  }
+  return sounds[name] || "I don't know" ;
 }
 
-class Dog extends Animal{
-  constructor(name, sound){
-    super('Dog', name, sound);
-  }
-}
 
-const dog = new Dog('멍멍이', '멍멍');
-dog.say();
+console.log(makeSound("Dog"));
+console.log(makeSound("Chair"));
