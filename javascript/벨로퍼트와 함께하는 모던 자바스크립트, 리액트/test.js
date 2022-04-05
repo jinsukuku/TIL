@@ -1,13 +1,23 @@
-function makeSound(name) {
-  const sounds = {
-    'Dog': '멍멍',
-    'Cat': '야옹',
-    'Bear': '우워어',
-    'Bird': '짹짹',
-  }
-  return sounds[name] || "I don't know" ;
+function test(n){
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const value = n + 1;
+      if(value == 5){
+        const error = new Error();
+        error.name = 'ValueIsFive';
+        reject(error);
+        return;
+      }
+      console.log(value);
+      resolve(value);
+    }, 1000);
+  });
 }
 
-
-console.log(makeSound("Dog"));
-console.log(makeSound("Chair"));
+test(0)
+  .then(test)
+  .then(test)
+  .then(test)
+  .then(test)
+  .then(test)
+  .catch(e => console.error(e) );
