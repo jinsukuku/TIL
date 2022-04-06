@@ -1,16 +1,17 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff9b71,100:fc7643&height=180&section=header&text=Hello%20World%20%F0%9F%91%8B&fontSize=32&animation=fadeIn&fontAlignY=36&fontColor=ffffff" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=wave&color=0:ff9b71,100:fc7643&height=120&section=header&text=Hello%20World%20%F0%9F%91%8B&fontSize=32&animation=fadeIn&fontAlignY=48&fontColor=ffffff" width="100%">
 
 
-<!-- <div align=center>
+<div align=right>
    <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdev-ku&count_bg=%230FD082&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
-</div> -->
+   
+</div>
 
 
+
+<!-- **dev-ku/dev-ku** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started: -->
 <!-- 
-**dev-ku/dev-ku** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
@@ -19,4 +20,5 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
  -->
