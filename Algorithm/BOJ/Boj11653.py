@@ -1,11 +1,10 @@
-## 백준 11653. 소인수분해
-## 2022.01.27(목)
+# 11653. 소인수분해
 
 import sys
+input = sys.stdin.readline
 
-n = int(sys.stdin.readline().rstrip())
+n = int(input().rstrip())
 i = 2
-
 while n != 1:
     if n % i == 0:
         while n % i == 0:
