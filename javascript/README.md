@@ -11,6 +11,13 @@
 
 <br>
 
+## 📚 벨로퍼트와 함께하는 모던 자바스크립트
+- **2022-05-02** | <a href="https://github.com/jinsukuku/Today-I-Learned/blob/main/javascript/%EB%B2%A8%EB%A1%9C%ED%8D%BC%ED%8A%B8%EC%99%80%20%ED%95%A8%EA%BB%98%ED%95%98%EB%8A%94%20%EB%AA%A8%EB%8D%98%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%2C%20%EB%A6%AC%EC%95%A1%ED%8A%B8/%EB%AA%A8%EB%8D%98%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-1%EC%9E%A5%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%9E%85%EB%AC%B8.md">모던 자바스크립트-1장 자바스크립트 입문</a>
+- **2022-05-02** | <a href="https://github.com/jinsukuku/Today-I-Learned/blob/main/javascript/%EB%B2%A8%EB%A1%9C%ED%8D%BC%ED%8A%B8%EC%99%80%20%ED%95%A8%EA%BB%98%ED%95%98%EB%8A%94%20%EB%AA%A8%EB%8D%98%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%2C%20%EB%A6%AC%EC%95%A1%ED%8A%B8/%EB%AA%A8%EB%8D%98%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-2%EC%9E%A5%20%EC%95%8C%EA%B3%A0%EC%9E%88%EC%9C%BC%EB%A9%B4%20%EC%9C%A0%EC%9A%A9%ED%95%9C%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EB%AC%B8%EB%B2%95.md">모던 자바스크립트-2장 알고있으면 유용한 자바스크립트 문법</a>
+- **2022-05-02** | <a href="https://github.com/jinsukuku/Today-I-Learned/blob/main/javascript/%EB%B2%A8%EB%A1%9C%ED%8D%BC%ED%8A%B8%EC%99%80%20%ED%95%A8%EA%BB%98%ED%95%98%EB%8A%94%20%EB%AA%A8%EB%8D%98%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%2C%20%EB%A6%AC%EC%95%A1%ED%8A%B8/%EB%AA%A8%EB%8D%98%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-3%EC%9E%A5%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C%20%EB%B9%84%EB%8F%99%EA%B8%B0%20%EC%B2%98%EB%A6%AC%20%EB%8B%A4%EB%A3%A8%EA%B8%B0.md">모던 자바스크립트-3장 자바스크립트에서 비동기 처리 다루기</a>
+
+<br>
+
 ## 📚 React와 Node.js를 활용한 고객 관리 시스템 개발(동빈나)
 - **2022-03-26** | <a href="https://github.com/jinsukuku/Today-I-Learned/blob/main/javascript/React%EC%99%80%20Node.js%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%9C%20%EA%B3%A0%EA%B0%9D%20%EA%B4%80%EB%A6%AC%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EA%B0%9C%EB%B0%9C(%EB%8F%99%EB%B9%88%EB%82%98)/01.CreateApp.md">01.CreateApp</a>
 - **2022-03-26** | <a href="https://github.com/jinsukuku/Today-I-Learned/blob/main/javascript/React%EC%99%80%20Node.js%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%9C%20%EA%B3%A0%EA%B0%9D%20%EA%B4%80%EB%A6%AC%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EA%B0%9C%EB%B0%9C(%EB%8F%99%EB%B9%88%EB%82%98)/02.ModifyApp.md">02.ModifyApp</a>
