@@ -1,23 +1,9 @@
-function test(n){
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      const value = n + 1;
-      if(value == 5){
-        const error = new Error();
-        error.name = 'ValueIsFive';
-        reject(error);
-        return;
-      }
-      console.log(value);
-      resolve(value);
-    }, 1000);
-  });
+function test({ color, name }){
+  console.log(color);
+  console.log(name);
 }
 
-test(0)
-  .then(test)
-  .then(test)
-  .then(test)
-  .then(test)
-  .then(test)
-  .catch(e => console.error(e) );
+const color = "white";
+const name = "jjangu";
+
+test({color, name});

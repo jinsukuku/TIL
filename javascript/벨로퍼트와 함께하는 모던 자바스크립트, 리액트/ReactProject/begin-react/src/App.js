@@ -1,5 +1,6 @@
 import React from "react";
 import Hello from "./Hello";
+import Wrapper from "./Wrapper";
 import './App.css';
 
 function App() {
@@ -15,9 +16,10 @@ function App() {
 
   return (
     <div className="App">
-      <Hello />
-      <h2 style={style}>{name}</h2>
-      <div className="gray-box">GoGo</div>
+      <Wrapper>
+        <Hello color="aqua" name="jjangu" />
+        <h2 style={style}>{name}</h2>
+      </Wrapper>
     </div>
   );
 }
