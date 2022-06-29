@@ -1,9 +1,6 @@
-function test({ color, name }){
-  console.log(color);
-  console.log(name);
+var test = {
+  a :'aaa',
+  b : (n) => { console.log(n+1); }
 }
-
-const color = "white";
-const name = "jjangu";
-
-test({color, name});
+console.log(test);
+test.b(3);
