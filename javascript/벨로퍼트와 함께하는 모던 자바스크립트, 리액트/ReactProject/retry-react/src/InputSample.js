@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useRef} from 'react';
 
 function InputSample(){
     const [inputs, setInputs] = useState({
@@ -6,13 +6,7 @@ function InputSample(){
         nickname: ''
     });
     const {name, nickname} = inputs;
-
-    const temp = {
-        name: '',
-        age: 0,
-        [name]: 'jey'
-    }
-    console.log(temp);
+    const nameInput = useRef(); // *useRef()를 통해 ref객체 생성
     
     const onChange = (e) => {
         // e.target 비구조 할당
@@ -31,12 +25,14 @@ function InputSample(){
         setInputs({
           name: '',
           nickname: '',
-        })
+        });
+        // *nameInput이라는 ref를 가진 DOM에 focus가 가도록 
+        nameInput.current.focus();
       };
 
     return (
         <div>
-            <input placeholder='이름' name="name" onChange={onChange} value={name}></input>
+            <input placeholder='이름' name="name" onChange={onChange} value={name} ref={nameInput}></input>
             <br></br>
             <input placeholder='닉네임' name="nickname" onChange={onChange} value={nickname}></input>
             <br></br>
