@@ -1,25 +1,20 @@
-import React from "react";
-import Hello from "./Hello";
-import Wrapper from "./Wrapper";
-import './App.css';
+import Hello from './Hello';
+import Counter from './Counter';
+import InputSample from './InputSample';
+import InputSample2 from './InputSample2';
 
 function App() {
-  const name = "React";
-  const style = {
-    backgroundColor: 'black',
-    color: 'aqua',
-    fontSize: 24, 
-    padding: '1rem',
-    textAlign: 'center'
-  }
-
-
   return (
-    <div className="App">
-      <Wrapper>
-        <Hello color="aqua" name="jjangu" />
-        <h2 style={style}>{name}</h2>
-      </Wrapper>
+    <div>
+      <InputSample2 />
+      <br/>
+      <InputSample />
+      <br/>
+      <Counter></Counter>
+      <br/>
+      <Hello name="우영우" check={false}>
+        <p>*거꾸로 말해도 우영우, 기러기 토마토 스위스 별똥별 역삼역</p>
+      </Hello>
     </div>
   );
 }
