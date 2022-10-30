@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="전국택시운송사업조합연합회">
+    <meta name="Description" content="타기쉬운 택시, 친절한 택시, 서비스가 다양한 택시 연합회가 함께합니다">
+    <title>전국택시운송사업조합연합회-고객지원센터</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <!-- wrap -->
+    <div id = "wrap">
+        <!-- header -->
+        <header>
+            <!-- h1 : logo -->
+            <h1>
+                <a href="#">
+                    <img src = "img/top_ci.gif" alt="전국택시운송사업조합연합회CI">
+                </a>
+            </h1>
+            <!-- utill -->
+            <ul class="utill">
+                <li><a href="#">홈으로</a></li>
+                <li><a href="#">인트라넷</a></li>
+            </ul>
+        </header>
+        <!-- nav -->
+        <nav>
+            <ul>
+                <li><a href="#">택시뉴스플러스</a></li>
+                <li><a href="#">택시고객지원센터</a></li>
+                <li class="selected"><a href="#">택시관련법령및제도</a></li>
+                <li><a href="#">택시통계</a></li>
+                <li><a href="#">일반자료실</a></li>
+                <li><a href="#">택시연합회소개</a></li>
+            </ul>
+        </nav>
+        <!-- main -->
+        <main>
+            <div class="visual"></div>
+            <!-- contents -->
+            <div class="contents">
+                <h2>지역별 택시 요금 안내</h2>
+                <h3>타기 쉬운 택시, 친절한 택시, 서비스가 다양한 택시</h3> 
+                <!-- tableWrap -->
+                <div class="tableWrap">
+                    <h4><span>2019년 기준</span><br>중형 택시</h4>
+                    <table> 
+                        <caption>
+                            <strong>중형 택시 요금 안내</strong>
+                            <span>지역 기본요금(2km까지), 주행요금(100원), 시간요금(15km/h 이하 주행 시 100원,) 심야(0~4시) 및 사업 구역 외 운행, 시행 일자, 비고</span>
+                        </caption>
+                        <colgroup>
+                            <col style="width:6%;">
+                            <col style="width:6%;">
+                            <col style="width:14%;">
+                            <col style="width:9%;">
+                            <col style="width:15%;">
+                            <col style="width:16%;">
+                            <col style="width:16%;">
+                            <col style="width:auto;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col" id="area" colspan="2">지역</th>
+                                <th scope="col" id="baseRate">기본요금<br>(2km까지)</th>
+                                <th scope="col" id="drivingRate">주행요금<br>(100원)</th>
+                                <th scope="col" id="hourlyRate">시간요금<br>(15km/h이하<br>주행 시 100원)</th>
+                                <th scope="col" id="nigthDriving">심야(0시~4시) 및<br>사업구역 외 운행</th>
+                                <th scope="col" id="date">시행일자</th>
+                                <th scope="col" id="note">비고</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- 서울 -->
+                            <tr>
+                                <th scope="rowgroup" id="seoul" rowspan="2">서울</th>
+                                <th scope="row" id="seoul_before">종전</th>
+                                <td headers="area seoul seoul_before baseRate">3,000원</td>
+                                <td headers="area seoul seoul_before drivingRate">142m당</td>
+                                <td headers="area seoul seoul_before hourlyRate">35초당</td>
+                                <td headers="area seoul seoul_before seoul_after nigthDriving" rowspan="2">20% 할증</td>
+                                <td headers="area seoul seoul_before seoul_after date" rowspan="2">19.02.16<br>(18.6% 인상)</td>
+                                <td headers="area seoul seoul_before seoul_after note" rowspan="2">15.km/h 이하<br>주행시 안전거리<br>동시병산</td>
+                            </tr>
+                            <tr>
+                                <th id="seoul_after" scope="row"><strong>조정</strong></th>
+                                <td headers="area seoul seoul_after baseRate"><strong>3,800원 (주간)<br>4,600원 (심야)</strong></td>
+                                <td headers="area seoul seoul_after drivingRate"><strong>132m당</strong></td>
+                                <td headers="area seoul seoul_after hourlyRate"><strong>31초당</strong></td>
+                            </tr>
+                            <!-- 부산 -->
+                            <tr>
+                                <th scope="rowgroup" id="busan" rowspan="2">부산</th>
+                                <th scope="row" id="busan_before">종전</th>
+                                <td headers="area busan busan_before baseRate">2,800원</td>
+                                <td headers="area busan busan_before drivingRate">143m당</td>
+                                <td headers="area busan busan_before hourlyRate">34초당</td>
+                                <td headers="area busan busan_before busan_after nigthDriving" rowspan="2">심야 20%<br>사업구역외 30%<br>복합 40%</td>
+                                <td headers="area busan busan_before busan_after date" rowspan="2">17.09.01<br>(13.72% 인상)</td>
+                                <td headers="area busan busan_before busan_after note" rowspan="2">15.km/h 이하<br>주행시 안전거리<br>동시병산</td>
+                            </tr>
+                            <tr>
+                                <th id="busan_after" scope="row"><strong>조정</strong></th>
+                                <td headers="area busan busan_after baseRate"><strong>3,300원</strong></td>
+                                <td headers="area busan busan_after drivingRate"><strong>133m당</strong></td>
+                                <td headers="area busan busan_after hourlyRate"><strong>34초당</strong></td>
+                            </tr>
+                            <!-- 대구 -->
+                            <tr>
+                                <th scope="rowgroup" id="daegu" rowspan="2">대구</th>
+                                <th scope="row" id="daegu_before">종전</th>
+                                <td headers="area daegu daegu_before baseRate">2,800원</td>
+                                <td headers="area daegu daegu_before drivingRate">144m당</td>
+                                <td headers="area daegu daegu_before hourlyRate">34초당</td>
+                                <td headers="area daegu daegu_before daegu_after nigthDriving" rowspan="2">심야 20%<br>심야 사업구역외<br>중복할증 40%</td>
+                                <td headers="area daegu daegu_before daegu_after date" rowspan="2">18.11.01<br>(14.1% 인상)</td>
+                                <td headers="area daegu daegu_before daegu_after note" rowspan="2">15.km/h 이하<br>주행시 안전거리<br>동시병산</td>
+                            </tr>
+                            <tr>
+                                <th id="daegu_after" scope="row"><strong>조정</strong></th>
+                                <td headers="area daegu daegu_after baseRate"><strong>3,300원</strong></td>
+                                <td headers="area daegu daegu_after drivingRate"><strong>134m당</strong></td>
+                                <td headers="area daegu daegu_after hourlyRate"><strong>32초당</strong></td>
+                            </tr>
+                            <!-- 인천 -->
+                            <tr>
+                                <th scope="rowgroup" id="incheon" rowspan="2">인천</th>
+                                <th scope="row" id="incheon_before">종전</th>
+                                <td headers="area incheon incheon_before baseRate">3,000원</td>
+                                <td headers="area incheon incheon_before drivingRate">144m당</td>
+                                <td headers="area incheon incheon_before hourlyRate">35초당</td>
+                                <td headers="area incheon incheon_before incheon_after nigthDriving" rowspan="2">심야 20%<br>사업구역외 30%</td>
+                                <td headers="area incheon incheon_before incheon_after date" rowspan="2">19.03.09<br>(17.80% 인상)</td>
+                                <td headers="area incheon incheon_before incheon_after note" rowspan="2">15.km/h 이하<br>주행시 안전거리<br>동시병산</td>
+                            </tr>
+                            <tr>
+                                <th id="incheon_after" scope="row"><strong>조정</strong></th>
+                                <td headers="area incheon incheon_after baseRate"><strong>3,800원</strong></td>
+                                <td headers="area incheon incheon_after drivingRate"><strong>135m당</strong></td>
+                                <td headers="area incheon incheon_after hourlyRate"><strong>33초당</strong></td>
+                            </tr>
+                            <!-- 광주 -->
+                            <tr>
+                                <th scope="rowgroup" id="gwangju" rowspan="2">광주</th>
+                                <th scope="row" id="gwangju_before">종전</th>
+                                <td headers="area gwangju gwangju_before baseRate">2,800원</td>
+                                <td headers="area gwangju gwangju_before drivingRate">145m당</td>
+                                <td headers="area gwangju gwangju_before hourlyRate">35초당</td>
+                                <td headers="area gwangju gwangju_before gwangju_after nigthDriving" rowspan="2">심야 20%<br>사업구역외 35%<br>복합 40%</td>
+                                <td headers="area gwangju gwangju_before gwangju_after date" rowspan="2">19.01.10<br>(13.86%% 인상)</td>
+                                <td headers="area gwangju gwangju_before gwangju_after note" rowspan="2">15.km/h 이하<br>주행시 안전거리<br>동시병산</td>
+                            </tr>
+                            <tr>
+                                <th id="gwangju_after" scope="row"><strong>조정</strong></th>
+                                <td headers="area gwangju gwangju_after baseRate"><strong>3,300원</strong></td>
+                                <td headers="area gwangju gwangju_after drivingRate"><strong>134m당</strong></td>
+                                <td headers="area gwangju gwangju_after hourlyRate"><strong>32초당</strong></td>
+                            </tr>
+                            <!-- 대전 -->
+                            <tr>
+                                <th scope="rowgroup" id="daejeon" rowspan="2">대전</th>
+                                <th scope="row" id="daejeon_before">종전</th>
+                                <td headers="area daejeon daejeon_before baseRate">2,800원</td>
+                                <td headers="area daejeon daejeon_before drivingRate">140m당</td>
+                                <td headers="area daejeon daejeon_before hourlyRate">34초당</td>
+                                <td headers="area daejeon daejeon_before daejeon_after nigthDriving" rowspan="2">심야 20%<br>사업구역외 30%<br>복합 40%</td>
+                                <td headers="area daejeon daejeon_before daejeon_after date" rowspan="2">19.01.01<br>(17.86% 인상)</td>
+                                <td headers="area daejeon daejeon_before daejeon_after note" rowspan="2">15.km/h 이하<br>주행시 안전거리<br>동시병산</td>
+                            </tr>
+                            <tr>
+                                <th id="daejeon_after" scope="row"><strong>조정</strong></th>
+                                <td headers="area daejeon daejeon_after baseRate"><strong>3,300원</strong></td>
+                                <td headers="area daejeon daejeon_after drivingRate"><strong>133m당</strong></td>
+                                <td headers="area daejeon daejeon_after hourlyRate"><strong>34초당</strong></td>
+                            </tr>
+                            <!-- 울산 -->
+                            <tr>
+                                <th scope="rowgroup" id="ulsan" rowspan="2">울산</th>
+                                <th scope="row" id="ulsan_before">종전</th>
+                                <td headers="area ulsan ulsan_before baseRate">2,800원</td>
+                                <td headers="area ulsan ulsan_before drivingRate">125m당</td>
+                                <td headers="area ulsan ulsan_before hourlyRate">30초당</td>
+                                <td headers="area ulsan ulsan_before ulsan_after nigthDriving" rowspan="2">심야 20%<br>사업구역외 30%<br>(복합) 사업구역외<br>30%×심야20%</td>
+                                <td headers="area ulsan ulsan_before ulsan_after date" rowspan="2">19.01.01<br>(13.44% 인상)</td>
+                                <td headers="area ulsan ulsan_before ulsan_after note" rowspan="2">15.km/h 이하<br>주행시 안전거리<br>동시병산</td>
+                            </tr>
+                            <tr>
+                                <th id="ulsan_after" scope="row"><strong>조정</strong></th>
+                                <td headers="area ulsan ulsan_after baseRate"><strong>3,300원	</strong></td>
+                                <td headers="area ulsan ulsan_after drivingRate"><strong>125m당</strong></td>
+                                <td headers="area ulsan ulsan_after hourlyRate"><strong>30초당</strong></td>
+                            </tr>
+                            <!-- 경기 -->
+                            <tr>
+                                <th scope="rowgroup" id="gyeonggi" rowspan="2">경기</th>
+                                <th scope="row" id="gyeonggi_before">종전</th>
+                                <td headers="area gyeonggi gyeonggi_before baseRate">3,000원</td>
+                                <td headers="area gyeonggi gyeonggi_before drivingRate">144m당</td>
+                                <td headers="area gyeonggi gyeonggi_before hourlyRate">35초당</td>
+                                <td headers="area gyeonggi gyeonggi_before gyeonggi_after nigthDriving" rowspan="2">20% 할증</td>
+                                <td headers="area gyeonggi gyeonggi_before gyeonggi_after date" rowspan="2">19.05.04<br>(20.05% 인상)<br>표준형 기준</td>
+                                <td headers="area gyeonggi gyeonggi_before gyeonggi_after note" rowspan="2">15.km/h 이하<br>주행시 안전거리<br>동시병산</td>
+                            </tr>
+                            <tr>
+                                <th id="gyeonggi_after" scope="row"><strong>조정</strong></th>
+                                <td headers="area gyeonggi gyeonggi_after baseRate"><strong>3,800원</strong></td>
+                                <td headers="area gyeonggi gyeonggi_after drivingRate"><strong>132m당</strong></td>
+                                <td headers="area gyeonggi gyeonggi_after hourlyRate"><strong></strong>31초당</td>
+                            </tr>
+                            <!-- 강원 -->
+                            <tr>
+                                <th scope="rowgroup" id="gangwon" rowspan="2">강원</th>
+                                <th scope="row" id="gangwon_before">종전</th>
+                                <td headers="area gangwon gangwon_before baseRate">2,800원</td>
+                                <td headers="area gangwon gangwon_before drivingRate">152m당</td>
+                                <td headers="area gangwon gangwon_before hourlyRate">40초당</td>
+                                <td headers="area gangwon gangwon_before gangwon_after nigthDriving" rowspan="2">20% 할증</td>
+                                <td headers="area gangwon gangwon_before gangwon_after date" rowspan="2">19.05.04<br>(20.05% 인상)<br>표준형 기준</td>
+                                <td headers="area gangwon gangwon_before gangwon_after note" rowspan="2">15.km/h 이하<br>주행시 안전거리<br>동시병산</td>
+                            </tr>
+                            <tr>
+                                <th id="gangwon_after" scope="row"><strong>조정</strong></th>
+                                <td headers="area gangwon gangwon_after baseRate"><strong>3,800원</strong></td>
+                                <td headers="area gangwon gangwon_after drivingRate"><strong>132m당</strong></td>
+                                <td headers="area gangwon gangwon_after hourlyRate"><strong>31초당</strong></td>
+                            </tr>
+                            <!-- 충북 -->
+                            <tr>
+                                <th scope="rowgroup" id="chungbuk" rowspan="2">충북</th>
+                                <th scope="row" id="chungbuk_before">종전</th>
+                                <td headers="area chungbuk chungbuk_before baseRate">2,800원</td>
+                                <td headers="area chungbuk chungbuk_before drivingRate">143m당</td>
+                                <td headers="area chungbuk chungbuk_before hourlyRate">34초당</td>
+                                <td headers="area chungbuk chungbuk_before chungbuk_after nigthDriving" rowspan="2">20% 할증</td>
+                                <td headers="area chungbuk chungbuk_before chungbuk_after date" rowspan="2">19.03.23<br>(13.2% 인상)</td>
+                                <td headers="area chungbuk chungbuk_before chungbuk_after note" rowspan="2">15.km/h 이하<br>주행시 안전거리<br>동시병산</td>
+                            </tr>
+                            <tr>
+                                <th id="chungbuk_after" scope="row"><strong>조정</strong></th>
+                                <td headers="area chungbuk chungbuk_after baseRate"><strong>3,300원</strong></td>
+                                <td headers="area chungbuk chungbuk_after drivingRate"><strong>137m당</strong></td>
+                                <td headers="area chungbuk chungbuk_after hourlyRate"><strong>34초당</strong></td>
+                            </tr>
+                            <!-- 충남 -->
+                            <tr>
+                                <th scope="rowgroup" id="chungnam" rowspan="2">충남</th>
+                                <th scope="row" id="chungnam_before">종전</th>
+                                <td headers="area chungnam chungnam_before baseRate">2,800원</td>
+                                <td headers="area chungnam chungnam_before drivingRate">150m당</td>
+                                <td headers="area chungnam chungnam_before hourlyRate">37초당</td>
+                                <td headers="area chungnam chungnam_before chungnam_after nigthDriving" rowspan="2">20% 할증</td>
+                                <td headers="area chungnam chungnam_before chungnam_after date" rowspan="2">19.06.01<br>(17.13% 인상)</td>
+                                <td headers="area chungnam chungnam_before chungnam_after note" rowspan="2">15.km/h 이하<br>주행시 안전거리<br>동시병산</td>
+                            </tr>
+                            <tr>
+                                <th id="chungnam_after" scope="row"><strong>조정</strong></th>
+                                <td headers="area chungnam chungnam_after baseRate"><strong>3,300원</strong></td>
+                                <td headers="area chungnam chungnam_after drivingRate"><strong>131m당</strong></td>
+                                <td headers="area chungnam chungnam_after hourlyRate"><strong>37초당</strong></td>
+                            </tr>
+                            <!-- 전북 -->
+                            <tr>
+                                <th scope="rowgroup" id="jeonbuk" rowspan="2">전북</th>
+                                <th scope="row" id="jeonbuk_before">종전</th>
+                                <td headers="area jeonbuk jeonbuk_before baseRate">2,800원</td>
+                                <td headers="area jeonbuk jeonbuk_before drivingRate">148m당</td>
+                                <td headers="area jeonbuk jeonbuk_before hourlyRate">35초당</td>
+                                <td headers="area jeonbuk jeonbuk_before jeonbuk_after nigthDriving" rowspan="2">심야 20%<br>사업구역외 20%<br>복합 107%</td>
+                                <td headers="area jeonbuk jeonbuk_before jeonbuk_after date" rowspan="2">19.05.01<br>(14.47% 인상)</td>
+                                <td headers="area jeonbuk jeonbuk_before jeonbuk_after note" rowspan="2">15.km/h 이하<br>주행시 안전거리<br>동시병산</td>
+                            </tr>
+                            <tr>
+                                <th id="jeonbuk_after" scope="row"><strong>조정</strong></th>
+                                <td headers="area jeonbuk jeonbuk_after baseRate"><strong>3,300원</strong></td>
+                                <td headers="area jeonbuk jeonbuk_after drivingRate"><strong>147m당</strong></td>
+                                <td headers="area jeonbuk jeonbuk_after hourlyRate"><strong>33초당</strong></td>
+                            </tr>
+                            <!-- 전남 -->
+                            <tr>
+                                <th scope="rowgroup" id="jeonnam" rowspan="2">전남</th>
+                                <th scope="row" id="jeonnam_before">종전</th>
+                                <td headers="area jeonnam jeonnam_before baseRate">2,800원</td>
+                                <td headers="area jeonnam jeonnam_before drivingRate">146m당</td>
+                                <td headers="area jeonnam jeonnam_before hourlyRate">146m당</td>
+                                <td headers="area jeonnam jeonnam_before jeonnam_after nigthDriving" rowspan="2">심야 20%<br>사업구역외 35% 이내</td>
+                                <td headers="area jeonnam jeonnam_before jeonnam_after date" rowspan="2">19.04<br>(15.46% 인상)</td>
+                                <td headers="area jeonnam jeonnam_before jeonnam_after note" rowspan="2">15.km/h 이하<br>주행시 안전거리<br>동시병산</td>
+                            </tr>
+                            <tr>
+                                <th id="jeonnam_after" scope="row"><strong>조정</strong></th>
+                                <td headers="area jeonnam jeonnam_after baseRate"><strong>3,300원</strong></td>
+                                <td headers="area jeonnam jeonnam_after drivingRate"><strong>134m당</strong></td>
+                                <td headers="area jeonnam jeonnam_after hourlyRate"><strong>32초당</strong></td>
+                            </tr>
+                            <!-- 경북 -->
+                            <tr>
+                                <th scope="rowgroup" id="gyeongbuk" rowspan="2">경북</th>
+                                <th scope="row" id="gyeongbuk_before">종전</th>
+                                <td headers="area gyeongbuk gyeongbuk_before baseRate">2,800원</td>
+                                <td headers="area gyeongbuk gyeongbuk_before drivingRate">139m당</td>
+                                <td headers="area gyeongbuk gyeongbuk_before hourlyRate">33초당</td>
+                                <td headers="area gyeongbuk gyeongbuk_before gyeongbuk_after nigthDriving" rowspan="2">20% 할증</td>
+                                <td headers="area gyeongbuk gyeongbuk_before gyeongbuk_after date" rowspan="2">19.03.01<br>(12.5% 인상)</td>
+                                <td headers="area gyeongbuk gyeongbuk_before gyeongbuk_after note" rowspan="2">15.km/h 이하<br>주행시 안전거리<br>동시병산</td>
+                            </tr>
+                            <tr>
+                                <th id="gyeongbuk_after" scope="row"><strong>조정</strong></th>
+                                <td headers="area gyeongbuk gyeongbuk_after baseRate"><strong>3,300원</strong></td>
+                                <td headers="area gyeongbuk gyeongbuk_after drivingRate"><strong>	134m당</strong></td>
+                                <td headers="area gyeongbuk gyeongbuk_after hourlyRate"><strong>33초당</strong></td>
+                            </tr>
+                            <!-- 경남 -->
+                            <tr>
+                                <th scope="rowgroup" id="gyeongnam" rowspan="2">경남</th>
+                                <th scope="row" id="gyeongnam_before">종전</th>
+                                <td headers="area gyeongnam gyeongnam_before baseRate">2,800원</td>
+                                <td headers="area gyeongnam gyeongnam_before drivingRate">143m당</td>
+                                <td headers="area gyeongnam gyeongnam_before hourlyRate">34초당</td>
+                                <td headers="area gyeongnam gyeongnam_before gyeongnam_after nigthDriving" rowspan="2">심야 20%<br>사업구역외 30%</td>
+                                <td headers="area gyeongnam gyeongnam_before gyeongnam_after date" rowspan="2">19.04.11<br>(14.56% 인상)</td>
+                                <td headers="area gyeongnam gyeongnam_before gyeongnam_after note" rowspan="2">15.km/h 이하<br>주행시 안전거리<br>동시병산</td>
+                            </tr>
+                            <tr>
+                                <th id="gyeongnam_after" scope="row"><strong>조정</strong></th>
+                                <td headers="area gyeongnam gyeongnam_after baseRate"><strong>3,300원</strong></td>
+                                <td headers="area gyeongnam gyeongnam_after drivingRate"><strong>133m당</strong></td>
+                                <td headers="area gyeongnam gyeongnam_after hourlyRate"><strong>34초당</strong></td>
+                            </tr>
+                            <!-- 제주 -->
+                            <tr>
+                                <th scope="rowgroup" id="jeju" rowspan="2">제주</th>
+                                <th scope="row" id="jeju_before">종전</th>
+                                <td headers="area jeju jeju_before baseRate">2,800원</td>
+                                <td headers="area jeju jeju_before drivingRate">144m당</td>
+                                <td headers="area jeju jeju_before hourlyRate">35초당</td>
+                                <td headers="area jeju jeju_before jeju_after nigthDriving" rowspan="2">심야 20%<br>사업구역외 30%</td>
+                                <td headers="area jeju jeju_before jeju_after date" rowspan="2">19.07.15<br>(16.27% 인상)</td>
+                                <td headers="area jeju jeju_before jeju_after note" rowspan="2">장거리(20km 이상)<br>168m당 120원</td>
+                            </tr>
+                            <tr>
+                                <th id="jeju_after" scope="row"><strong>조정</strong></th>
+                                <td headers="area jeju jeju_after baseRate"><strong>3,300원</strong></td>
+                                <td headers="area jeju jeju_after drivingRate"><strong>126m당</strong></td>
+                                <td headers="area jeju jeju_after hourlyRate"><strong>30초당</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+<footer>
+    <div class="footerWrap">
+        <p class="footerCi"><img src="img/footer_ci.gif" alt="전국택시운송사업조합연합회CI"></p>
+        <div class="footerInfo">
+            <ul class="info">
+                <li>서울특별시 강남구 선릉로 531 전국택시연합회관</li>   
+                <li>사업자번호 : 220-82-00560</li>   
+                <li>TEL : 02.555.1635</li>   
+                <li>FAX : 02.568.7195</li>
+            </ul>
+            <p class="copyright">Copyrights(c) 2015 TAXI.OR.KR. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
