@@ -8,13 +8,13 @@
 <br>
 
 ## JAVA
-### <a href="">📚 멀티캠퍼스-JAVA(기초)</a>
+### <a href="https://github.com/jinsukuku/Today-I-Learned/tree/main/%F0%9F%92%9B%20BackEnd/%EB%A9%80%ED%8B%B0%EC%BA%A0%ED%8D%BC%EC%8A%A4-JAVA(%EA%B8%B0%EC%B4%88)">📚 멀티캠퍼스-JAVA(기초)</a>
 - 기간 : 2021. 10 ~ 11
 
 
 ## SPRING
-### <a href="">📚 스프링의 정석</a>
-- 강의 : <a href="https://fastcampus.co.kr/dev_academy_nks">코딩앙마 - 자바스크립트 중급 강좌(140분 완성)</a>
+### <a href="https://github.com/jinsukuku/Today-I-Learned/tree/main/%F0%9F%92%9B%20BackEnd/%EC%8A%A4%ED%94%84%EB%A7%81%EC%9D%98%20%EC%A0%95%EC%84%9D">📚 패스트캠퍼스-스프링의 정석</a>
+- 강의 : <a href="https://fastcampus.co.kr/dev_academy_nks">패스트캠퍼스-스프링의 정석</a>
 
 
 ## Python
