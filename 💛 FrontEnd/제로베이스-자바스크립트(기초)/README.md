@@ -3,8 +3,8 @@
 
 ### 01. JavaScript
 - **Keyword** : ECMAScript, 인터프리터 언어, Node.js 
-- <a href="https://github.com/dev-ku/TIL-FrontEnd/blob/main/JavaScript/01.JavaScript.md#-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%ED%95%99%EC%8A%B5-%ED%99%98%EA%B2%BD">자바스크립트 학습 환경</a>
-- <a href="https://github.com/dev-ku/TIL-FrontEnd/blob/main/JavaScript/01.JavaScript.md#-javascript">JavaScript Overview</a>
+- 자바스크립트 학습 환경</a>
+- JavaScript Overview</a>
 - <a href="https://github.com/dev-ku/TIL-FrontEnd/blob/main/JavaScript/01.JavaScript.md#-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D">프로그래밍</a>
 - <a href="https://github.com/dev-ku/TIL-FrontEnd/blob/main/JavaScript/01.JavaScript.md#-%EC%9E%85%EC%B6%9C%EB%A0%A5io">입출력(I/O)</a>
 - <a href="https://github.com/dev-ku/TIL-FrontEnd/blob/main/JavaScript/01.JavaScript.md#-%EA%B8%B0%EB%B3%B8-%EC%9A%A9%EC%96%B4">기본 용어</a>
