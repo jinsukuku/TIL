@@ -1,0 +1,27 @@
+{
+  "name": "01-1.virtualkeyboard",
+  "version": "1.0.0",
+  "description": "- 가상 키보드 구현\r - WebPack을 사용해 개발 환경 구축\r - EST와 HollyTear 사용\r - html, css 를 사용해 UI 제작\r - 다크모드 추가\r - KeyBoard Event 적용(특수 키 제외)\r - 한글 입력 지원 X",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "css-minimizer-webpack-plugin": "^3.1.1",
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.6",
+    "prettier": "2.5.1",
+    "terser-webpack-plugin": "^5.3.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.2"
+  }
+}
