@@ -28,7 +28,7 @@
 > `Vanilla.js`, `React`, `Node.js`, `Express.js`
 
 ### <a href="">📚 벨로퍼트와 함께하는 모던 자바스크립트, 리액트 </a>
-- 기간 : 2022. 05 ~ 
+- 기간 : 2022. 05 
 - 강의 : <a href="https://learnjs.vlpt.us/">벨로퍼트와 함께하는 모던 자바스크립트</a>
 - 강의 : <a href="https://react.vlpt.us/">벨로퍼트와 함께하는 모던 리액트</a>
 ### <a href="https://github.com/dev-ku/Today-I-Learned/tree/main/javascript/React%EC%99%80%20Node.js%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%9C%20%EA%B3%A0%EA%B0%9D%20%EA%B4%80%EB%A6%AC%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EA%B0%9C%EB%B0%9C(%EB%8F%99%EB%B9%88%EB%82%98)">📚 React와 Node.js를 활용한 고객 관리 시스템 개발(동빈나)</a>
@@ -51,7 +51,7 @@
 > `Java`, `Spring`, `Servlet`, `JSP`
 
 ### <a href="">📚 스프링의 정석 강의</a>
-- 기간 : 2022.04 ~
+- 기간 : 2022.04
 - 강사 : 남궁성
 - 강의 : <a href="https://fastcampus.co.kr/dev_academy_nks"> 패스트 캠퍼스 스프링의 정석</a>
 ### <a href="https://github.com/dev-ku/Java/tree/main/Multicampus/01.%20Java#%EF%B8%8F-01-java%EA%B8%B0%EC%B4%88-%EC%A0%95%EB%A6%AC">📚 멀티캠퍼스 자바 강의</a>
