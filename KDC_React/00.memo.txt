@@ -1,0 +1,54 @@
+*CreateUser 컴포넌트 생성
+1. props 		username, class, age, onChange, onCreate
+2. <input> 	usernaem, class, age
+3. <button>	onCreate
+
+*CreateUser 컴포넌트에 필요한 props 설정
+1. inputs 	username, email
+2. onChange	
+3. onCreate	user추가되며, inputBox도 reset해줄것
+
+*users 배열 역시 useState로 관리
+
+
+====
+
+*onRemove 	filter() 사용
+*onUpdate	toggle 구현
+	- user의 속성에 active 추가
+	- onToggle 이벤트
+
+====
+
+*useEffect를 사용해 마운트/언마운트 등, 특정 작업을 처리할 수 있다
+컴포넌트 마운트		나타날때
+컴포넌트 언마운트		사라질때
+
+**참고
+https://xiubindev.tistory.com/100
+
+====
+
+리액트 생명주기
+https://velog.io/@minbr0ther/React.js-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4life-cycle-%EC%88%9C%EC%84%9C-%EC%97%AD%ED%95%A0
+
+https://kyun2da.dev/react/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4%EC%9D%98-%EC%9D%B4%ED%95%B4/
+
+https://serzhul.io/REACT/react-life-cycle(%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%83%9D%EB%AA%85-%EC%A3%BC%EA%B8%B0)/
+
+
+https://www.paduckk-dev.com/development/React%20LifeCycle/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
